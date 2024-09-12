@@ -9,7 +9,7 @@ Ce dépôt a pour but de :
 * Partager mes connaissances et mes solutions avec la communauté.
 
 ## Comment Contribuer ?
-Si vous souhaitez apporter des améliorations ou si vous avez des suggestions, n'hésitez pas à faire un fork du projet et soumettre une pull request. Vous pouvez également me contacter pour discuter de mes projets ou collaborer sur des idées.
+Si vous souhaitez apporter des améliorations ou si vous avez des suggestions, n'hésitez pas à faire un `fork` du projet et soumettre une `pull request`. Vous pouvez également me contacter pour discuter de mes projets ou collaborer sur des idées.
 
 ## Contact
 Je suis toujours ouvert à de nouvelles opportunités, collaborations ou simplement à des échanges constructifs. Vous pouvez me joindre via mon [profil GitHub](https://github.com/aurvl) ou sur [LinkedIn](https://www.linkedin.com/in/loua-aurel-vehi-29887a290/).
