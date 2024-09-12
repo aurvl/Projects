@@ -1,0 +1,776 @@
+Trade.Agreement,NorthSouth,Number,depth_index
+1_Afghanistan India_2003,3,1,1
+10_Albania Kosovo_2003,3,10,4
+100_Bangkok Agreement_1975,3,100,1
+1000_COMESA EAC SADC_2015,3,1000,#N/A
+1003_Brazil_Venezuela_2012,3,1003,#N/A
+1007_USMCA_2018,2,1007,#N/A
+1008_EC Singapore Investment Protection Agreement_2018,2,1008,#N/A
+1010_EC Vietnam Investment Protection Protocol_2019,2,1010,#N/A
+1011_Bosnia and Herzegovina Turkey_2019,3,1011,#N/A
+1012_Ecuador El Salvador_2017,3,1012,#N/A
+1013_Georgia Hong Kong_2018,3,1013,#N/A
+1014_Mexico Peru_2011,3,1014,#N/A
+1015_Australia Hong Kong_2019,2,1015,#N/A
+1017_Korea UK_2019,2,1017,#N/A
+1022_Georgia UK_2019,2,1022,#N/A
+1031_Pacific States UK_2019,2,1031,#N/A
+1035_Eastern and Southern African States UK_2019,2,1035,#N/A
+1036_CARIFORUM UK_2019,2,1036,#N/A
+1037_Southern African Customs Union Mozambique (SACUM) UK_2019,2,1037,#N/A
+1038_Brazil Paraguay_2020,3,1038,#N/A
+1040_Eurasian Economic Union (EAEU)_2014,3,1040,#N/A
+1041_EFTA Turkey_2018,2,1041,#N/A
+1043_Paraguay Taiwan_2017,3,1043,#N/A
+1044_Regional Comprehensive Economic Partnership (RCEP)_2020,2,1044,#N/A
+1045_Colombia Mexico_2011,3,1045,#N/A
+1046_EC UK_2020,2,1046,#N/A
+1047_China Mauritius_2019,3,1047,#N/A
+1048_Turkey UK_2020,2,1048,#N/A
+1049_Japan UK_2020,1,1049,#N/A
+1051_Cote d'Ivoire UK_2020,2,1051,#N/A
+1052_Kenya UK_2020,2,1052,#N/A
+1053_Moldova UK_2020,2,1053,#N/A
+1056_UK Ukraine_2020,2,1056,#N/A
+1058_Cameroon UK_2020,2,1058,#N/A
+1059_Canada UK_2020,1,1059,#N/A
+1061_Israel Ukraine_2019,3,1061,#N/A
+1062_Eastern and Southern Africa States (ESA) EC Interim EPA_2009,2,1062,#N/A
+1063_Association of Southeast Asian Nations (ASEAN) Hong Kong_2018,3,1063,#N/A
+1064_Ecuador Guatemala_2011,3,1064,#N/A
+1065_Canada Israel_2018,2,1065,#N/A
+1068_El Salvador Panama_1976,3,1068,#N/A
+1069_El Salvador Panama_1986,3,1069,#N/A
+1070_Colombia MERCOSUR services_2018,3,1070,#N/A
+1071_Namibia Zimbabwe_2009,3,1071,#N/A
+1073_Brazil Chile_2018,3,1073,#N/A
+1074_Chile China_2017,3,1074,#N/A
+1079_Group of Three Protocol_2010,3,1079,#N/A
+1080_Chile Ecuador_2020,3,1080,#N/A
+1081_Australia UK_1957,1,1081,#N/A
+1082_Iceland Liechtenstein Norway UK_2021,1,1082,#N/A
+1084_Armenia Belarus Kazakhstan Kyrgyzstan Russia (EAEU) Serbia_2019,3,1084,#N/A
+109_Belarus Russia (Union State)_1999,3,109,1
+11_Albania Macedonia_2002,3,11,4
+112_Belarus Serbia_2009,3,112,2
+114_Belarus Ukraine_1992,3,114,1
+115_Belize Guatemala_2006,3,115,2
+116_Bhutan India_2006,3,116,1
+117_Bhutan India_1972,3,117,1
+119_Bolivia Chile_1993,3,119,3
+12_Albania Moldova_2003,3,12,4
+121_Bolivia Cuba_2000,3,121,2
+123_Bolivia MERCOSUR_1996,3,123,4
+124_Bolivia Mexico_1994,3,124,6
+125_Bolivia Paraguay_1994,3,125,3
+126_Bolivia Uruguay_1991,3,126,0
+128_Bosnia and Herzegovina Bulgaria_2003,3,128,4
+129_Bosnia and Herzegovina Croatia_2000,3,129,3
+13_Albania Romania_2003,3,13,3
+130_Bosnia and Herzegovina EC SAA_2008,2,130,4
+131_Bosnia and Herzegovina Macedonia_2002,3,131,3
+132_Bosnia and Herzegovina Moldova_2002,3,132,2
+133_Bosnia and Herzegovina Romania_2003,3,133,3
+134_Bosnia and Herzegovina Serbia Montenegro_2002,3,134,3
+135_Bosnia and Herzegovina Slovenia_2001,3,135,3
+136_Bosnia and Herzegovina Turkey_2002,3,136,2
+138_Brazil Cuba_1989,3,138,0
+138a_Brazil Cuba_1992,3,138a,#N/A
+139_Brazil Cuba_1999,3,139,0
+14_Albania Serbia_2004,3,14,4
+140_Brazil Guyana_2001,3,140,0
+141_Brazil Mexico_2002,3,141,1
+142_Brazil Peru_1993,3,142,3
+143_Brazil Suriname_2005,3,143,0
+144_Brazil Uruguay_1986,3,144,0
+146_Brunei Japan_2007,2,146,4
+147_Bulgaria Czech Republic_1995,3,147,#N/A
+148_Bulgaria EC_1993,2,148,6
+149_Bulgaria EFTA_1993,2,149,3
+15_Albania Turkey_2006,3,15,4
+150_Bulgaria Estonia_2001,3,150,4
+151_Bulgaria Finland_1974,2,151,1
+152_Bulgaria Israel_2001,3,152,2
+153_Bulgaria Latvia_2002,3,153,3
+154_Bulgaria Lithuania_2001,3,154,2
+155_Bulgaria Macedonia_1999,3,155,3
+156_Bulgaria Moldova_2004,3,156,2
+157_Bulgaria Serbia_2003,3,157,3
+158_Bulgaria Slovakia_1995,3,158,2
+159_Bulgaria Slovenia_1996,3,159,2
+16_Algeria EC_1976,2,16,0
+160_Bulgaria Turkey_1998,3,160,4
+161_Canada Chile_1996,2,161,6
+162_Canada Colombia_2008,2,162,6
+163_Canada Costa Rica_2001,2,163,4
+164_Canada EFTA_2008,1,164,4
+165_Canada Israel_1996,2,165,3
+166_Canada Jordan_2009,2,166,2
+167_Canada New Zealand_1981,1,167,0
+168_Canada Peru_2008,2,168,6
+169_Canada US_1988,1,169,3
+17_Algeria EC Euro-Med Association Agreement_2002,2,17,5
+170_Canada US Automotive Products Trade Agreement (APTA)_1965,1,170,#N/A
+171_Caribbean Community (CARICOM)_1973,3,171,2
+172_Caribbean Community (CARICOM) Colombia_1994,3,172,1
+173_Caribbean Community (CARICOM) Costa Rica_2004,3,173,3
+174_Caribbean Community (CARICOM) Cuba_2000,3,174,2
+175_Caribbean Community (CARICOM) Dominican Republic_1998,3,175,4
+176_Caribbean Community (CARICOM) Protocol on Services_1997,3,176,#N/A
+177_Caribbean Community (CARICOM) revised _2001,3,177,5
+178_Caribbean Community (CARICOM) Venezuela_1992,3,178,1
+179_Caribbean Free Trade Association (CARIFTA)_1965,3,179,1
+18_Algeria Jordan_1997,3,18,1
+180_Caribbean Free Trade Association (CARIFTA)_1968,3,180,1
+181_CARIFORUM EC EPA_2008,2,181,7
+182_Central African Customs and Economic Union (UDEAC)_1964,3,182,1
+183_Central America Chile_1999,3,183,6
+184_Central America Dominican Republic_1998,3,184,7
+185_Central America Panama_2002,3,185,7
+186_Central American Common Market (CACM)_1960,3,186,1
+187_Central American Free Trade Agreement (CAFTA)_2004,2,187,6
+188_Agreement Secretariat Environmental Matters FTA_2006,2,188,6
+188_Central American Free Trade Agreement (CAFTA) Dominican Republic_2004,2,188,6
+188_understanding establishment secretariat environmental matters CAFTA-DR_2005,2,188,6
+189_Central American Free Trade Area (CAFTA)_1958,3,189,2
+19_Algeria Morocco_1989,3,19,1
+190_Central American Integration System_1991,3,190,0
+192_Central European Free Trade Agreement (CEFTA)_1992,3,192,2
+192+1_Central European Free Trade Agreement (CEFTA) Slovenia accession_1995,3,192+1,#N/A
+192+2_Central European Free Trade Agreement (CEFTA) Romania accession_1997,3,192+2,#N/A
+192+3_Central European Free Trade Agreement (CEFTA) Bulgaria accession_1998,3,192+3,#N/A
+192+4_Central European Free Trade Agreement (CEFTA) Croatia accession_2002,3,192+4,#N/A
+193_Central European Free Trade Agreement (CEFTA)_2006,3,193,#N/A
+199_Chile China_2005,3,199,5
+2_African Common Market_1962,3,2,1
+20_Algeria Tunisia_2008,3,20,2
+200_Chile Colombia_1993,3,200,2
+201_Chile Colombia_2006,3,201,5
+202_Chile EC_2002,2,202,7
+203_Chile Ecuador_1994,3,203,2
+204_Chile Ecuador_2008,3,204,2
+205_Chile_EFTA_2003,2,205,7
+206_Chile India_2006,3,206,1
+207_Chile Japan_2007,2,207,7
+208_Chile Korea_2003,3,208,7
+209_Chile MERCOSUR_1996,3,209,5
+210_Chile MERCOSUR Protocol on Services_2009,3,210,#N/A
+211_Chile Mexico_1991,3,211,3
+212_Chile Mexico_1998,3,212,6
+213_Chile Panama_2006,3,213,5
+215_Chile Peru_1998,3,215,3
+216_Chile Turkey_2009,3,216,3
+217_Chile Uruguay_1985,3,217,0
+218_Chile US_2003,2,218,7
+219_Chile Venezuela_1993,3,219,2
+22_Andean Community Brazil_1999,3,22,1
+220_China Hong Kong_2003,3,220,3
+221_China Macao_2003,3,221,3
+222_China_New_Zealand_2008,2,222,4
+224_China Pakistan_2006,3,224,4
+225_China Pakistan Services_2009,3,225,#N/A
+227_China Peru_2009,3,227,5
+228_China Singapore_2008,3,228,4
+23_Andean Community Trujillo Protocol_1996,3,23,#N/A
+230_Colombia Costa Rica_1984,3,230,0
+233_Colombia Cuba_2000,3,233,2
+234_Colombia EFTA_2008,2,234,7
+235_Colombia El Salvador_1984,3,235,0
+236_Colombia Guatemala_1984,3,236,0
+237_Colombia  Honduras_1984,3,237,0
+238_Colombia Nicaragua_1984,3,238,0
+239_Colombia Northern Triangle_2007,3,239,4
+24_Andean Countries Argentina_2000,3,24,1
+240_Colombia Panama_1993,3,240,1
+241_Colombia US_2006,2,241,7
+242_Common Economic Zone_2003,3,242,3
+243_Common Market for Eastern and Southern Africa (COMESA)_1993,3,243,3
+244_Commonwealth of Independent States (CIS)_1994,3,244,2
+247_Costa Rica Mexico_1982,3,247,0
+248_Costa Rica Mexico_1994,3,248,6
+249_Costa Rica Nicaragua Panama_1961,3,249,0
+25_Andean Countries MERCOSUR_2004,3,25,2
+25+1_Andean Countries MERCOSUR Venezuela accession_2006,3,25+1,#N/A
+250_Costa Rica Panama_1973,3,250,#N/A
+251_Costa Rica Venezuela_1986,3,251,0
+252_Cote d'Ivoire EC EPA_2009,2,252,3
+253_Cotonou Agreement_2000,2,253,2
+254_Croatia EC_2001,2,254,6
+255_Croatia EFTA_2001,2,255,5
+257_Croatia Lithuania_2002,3,257,3
+258_Croatia Macedonia_1997,3,258,3
+259_Croatia Macedonia (amended)_2002,3,259,3
+26_Andean Group Cartagena Agreement_1969,3,26,3
+260_Croatia Moldova_2004,3,260,2
+261_Croatia Serbia Montenegro_2002,3,261,3
+262_Croatia Slovenia_1997,3,262,2
+263_Croatia Turkey_2002,3,263,4
+265_Cuba Ecuador_2000,3,265,2
+266_Cuba Guatemala_1999,3,266,2
+267_Cuba Mercosur_2006,3,267,1
+268_Cuba Mexico_1985,3,268,0
+269_Cuba Mexico_2000,3,269,#N/A
+27_Andean Group Quito Protocol_1987,3,27,#N/A
+270_Cuba Paraguay_2000,3,270,1
+273_Cuba Peru_2000,3,273,2
+275_Cuba Uruguay_1999,3,275,0
+277_Cuba Venezuela_1999,3,277,3
+278_Cyprus EC_1972,2,278,2
+279_Czech and Slovak Republic EFTA_1992,2,279,4
+28_Andorra EC_1990,2,28,1
+280_Czech Republic EC_1993,2,280,5
+282_Czech Republic Estonia_1996,3,282,2
+283_Czech Republic Israel_1996,3,283,2
+284_Czech Republic Latvia_1996,3,284,2
+285_Czech Republic Lithuania_1995,3,285,2
+286_Czech Republic Romania_1994,3,286,#N/A
+287_Czech Republic Slovakia_1992,3,287,6
+288_Czech Republic Slovenia_1993,3,288,2
+289_Czech Republic Turkey_1997,3,289,2
+29_Arab Common Market_1964,3,29,1
+290_Czechoslovakia Finland_1974,2,290,1
+291_D8 PTA_2006,3,291,1
+292_Dominican Republic Panama_1985,3,292,0
+293_EC_1957,1,293,4
+293+1_EC (9) Enlargement Conditions_1972,1,293+1,#N/A
+293+1_EC (9) Enlargement Greece Protocol_1975,1,293+1,#N/A
+293+1_EC (9) Enlargement_1972,1,293+1,#N/A
+293+2_EC (10) Enlargement_1979,1,293+2,#N/A
+293+3_EC (12) Enlargement_1987,1,293+3,#N/A
+3_African Economic Community_1991,3,3,2
+30_Arab Maghreb Union_1989,3,30,1
+300_EC Amsterdam_1997,1,300,5
+302_EC Egypt_1977,2,302,1
+303_EC Egypt Agreement_1972,2,303,0
+304_EC Egypt Euro-Med Association Agreement_2001,2,304,5
+305_EC Estonia_1994,2,305,3
+306_EC Estonia Europe Agreement_1995,2,306,6
+307_EC Faroe Islands_1996,2,307,2
+308_EC Faroe Islands_1991,1,308,2
+309_EC Finland_1972,1,309,1
+310_EC Greece Additional Protocol_1975,1,310,#N/A
+311_EC Greece Association Agreement_1961,1,311,2
+312_EC Hungary_1991,2,312,6
+313_EC Iceland_1972,1,313,2
+314_EC Israel_1970,2,314,0
+315_EC Israel_1975,2,315,1
+316_EC Israel Euro-Med Association Agreement_1995,2,316,5
+317_EC Jordan_1977,2,317,0
+318_EC Jordan Euro-Med Association Agreement_1997,2,318,4
+319_EC Latvia_1994,2,319,3
+32_Argentina Brazil_1986,3,32,1
+320_EC Latvia Europe Agreement_1995,2,320,6
+321_EC Lebanon_1972,2,321,0
+322_EC Lebanon_1977,2,322,0
+323_EC Lebanon Euro-Med Association Agreement_2002,2,323,4
+324_EC Lisbon_2007,1,324,5
+325_EC Lithuania_1994,2,325,3
+326_EC Lithuania Europe Agreement_1995,2,326,7
+327_EC Maastricht_1992,1,327,5
+327+1_EC Maastricht (15) Enlargement_1994,1,327+1,#N/A
+328_EC Macedonia SAA_2001,2,328,6
+329_EC Malta_1970,2,329,1
+33_Argentina Brazil_1988,3,33,0
+330_EC Mexico_2000,2,330,4
+331_EC Montenegro SAA_2007,2,331,6
+332_EC Morocco_1976,2,332,0
+333_EC Morocco Association Agreement_1969,2,333,0
+334_EC Morocco Euro-Med Association Agreement_1996,2,334,4
+335_EC Nice_2001,1,335,5
+335+1_EC Nice (25) Enlargement_2003,2,335+1,#N/A
+335+2_EC Nice (27) Enlargement_2005,2,335+2,#N/A
+335+3_EC (28) Enlargement_2011,2,335+3,#N/A
+336_EC Norway_1973,1,336,3
+337_EC Poland_1991,2,337,6
+338_EC Portugal_1972,1,338,1
+339_EC Portugal Additional Protocol_1976,1,339,#N/A
+34_Argentina Brazil_1990,3,34,0
+340_EC Romania_1993,2,340,7
+341_EC San Marino_1991,1,341,1
+342_EC Serbia SAA_2008,2,342,7
+343_EC Single European Act_1986,1,343,#N/A
+344_EC Slovakia_1993,2,344,6
+345_EC Slovenia_1993,2,345,0
+346_EC Slovenia Europe Agreement_1996,2,346,6
+347_EC South Africa_1999,2,347,3
+348_EC Spain_1970,1,348,0
+349_EC Sweden_1972,1,349,1
+35_Argentina Chile_1991,3,35,2
+350_EC Switzerland Liechtenstein_1972,1,350,2
+351_EC Syria_1977,2,351,0
+352_EC Tunisia_1976,2,352,0
+353_EC Tunisia Association Agreement_1969,2,353,0
+354_EC Tunisia Euro-Med Association Agreement_1995,2,354,4
+355_EC Turkey_1995,2,355,4
+356_EC Turkey Additional Protocol_1970,2,356,#N/A
+357_EC Turkey Association Agreement (Ankara Agreement)_1963,2,357,0
+358_EC Turkey Supplementary Protocol_1973,2,358,#N/A
+359_EC Yugoslavia_1980,2,359,1
+36_Argentina Colombia_1988,3,36,0
+360_Economic and Monetary Community of Central Africa (CEMAC)_1994,3,360,3
+361_Economic and Monetary Community of Central Africa (CEMAC) revised_2008,3,361,1
+363_Economic Community of Central African States (ECCAS-CEEAC)_1983,3,363,3
+366_Economic Community Of West African States (ECOWAS)_1975,3,366,1
+367_Economic Community Of West African States (ECOWAS)_1993,3,367,2
+370_Economic Cooperation Organization (ECO) Preferences_1991,3,370,0
+371_Economic Cooperation Organization Trade Agreement (ECOTA)_2003,3,371,0
+372_Ecuador Mexico_1993,3,372,0
+373_Ecuador Paraguay_1994,3,373,0
+374_Ecuador Uruguay_1994,3,374,1
+375_EFTA_1960,1,375,2
+375+1_EFTA Iceland accession_1969,1,375+1,#N/A
+375+2_EFTA Annex H_1996,1,375+2,#N/A
+376_EFTA Egypt_2007,2,376,6
+377_EFTA Estonia_1995,2,377,4
+379_EFTA GCC_2009,2,379,6
+380_EFTA Hungary_1993,2,380,2
+382_EFTA Israel_1992,2,382,4
+383_EFTA Jordan_2001,2,383,4
+384_EFTA Korea_2005,2,384,6
+385_EFTA Latvia_1995,2,385,4
+386_EFTA Lebanon_2004,2,386,3
+388_EFTA Lithuania_1995,2,388,3
+389_EFTA Macedonia_2000,2,389,3
+39_Argentina Cuba_1999,3,39,0
+390_EFTA Mexico_2000,2,390,7
+391_EFTA Morocco_1997,2,391,3
+392_EFTA Poland_1992,2,392,3
+393_EFTA Romania_1992,2,393,3
+394_EFTA Serbia_2009,2,394,5
+395_EFTA services_2001,1,395,#N/A
+396_EFTA Singapore_2002,2,396,6
+398_EFTA Slovenia_1995,2,398,4
+399_EFTA Southern African Customs Union (SACU)_2006,2,399,4
+4_Agadir Agreement_2004,3,4,2
+40_Argentina Ecuador_1984,3,40,0
+400_EFTA Spain_1979,1,400,2
+401_EFTA Tunisia_2004,2,401,4
+402_EFTA Turkey_1991,2,402,3
+404_Egypt Jordan_1998,3,404,1
+405_Egypt Jordan_1996,3,405,1
+406_Egypt Jordan _1967,3,406,0
+41_Argentina Ecuador_1993,3,41,1
+410_Egypt Morocco_1998,3,410,1
+412_Egypt PLO_1998,3,412,0
+413_Egypt Syria_1991,3,413,0
+415_Egypt Turkey_2005,3,415,4
+416_El Salvador Honduras Taiwan_2007,3,416,4
+417_El Salvador Mexico_1986,3,417,0
+418_El Salvador Nicaragua Free Trade Area_1951,3,418,2
+419_El Salvador Panama_1970,3,419,1
+421_El Salvador Venezuela_1986,3,421,0
+422_Equatorial Customs Union_1959,3,422,1
+422+1_Equatorial Customs Union Cameroon Accession_1961,3,422+1,#N/A
+424_Estonia Faroe Islands_1997,2,424,2
+425_Estonia Finland_1992,2,425,1
+426_Estonia Hungary_1998,3,426,2
+427_Estonia Norway_1992,2,427,2
+428_Estonia Slovakia_1996,3,428,2
+429_Estonia Slovenia_1996,3,429,2
+43_Argentina Mexico_1986,3,43,0
+430_Estonia Sweden_1991,2,430,1
+431_Estonia Switzerland_1992,2,431,3
+432_Estonia Turkey_1997,3,432,4
+433_Estonia Ukraine_1995,3,433,2
+434_Eurasian Economic Community (EAEC)_1999,3,434,2
+436_European Coal and Steel Community_1951,1,436,0
+437_European Economic Area (EEA)_1992,1,437,5
+438_Faroe Islands Iceland_1992,1,438,3
+439_Faroe Islands Iceland_2005,2,439,2
+440_Faroe Islands Norway_1992,1,440,2
+441_Faroe Islands Poland_1998,2,441,2
+443_Faroe Islands Switzerland_1992,1,443,1
+445_EFTA Finland_1961,1,445,1
+446_Finland German Democratic Republic_1975,2,446,1
+447_Finland Hungary_1974,2,447,1
+448_Finland Latvia_1992,2,448,1
+449_Finland Lithuania_1992,2,449,1
+44a_Argentina Mexico_1989,3,44a,#N/A
+45_Argentina Paraguay_1989,3,45,0
+450_Finland Poland_1976,2,450,1
+452_France Monaco_1963,1,452,1
+453_France Tunisia Customs Union Convention_1955,2,453,1
+454_Georgia Kazakhstan_1997,3,454,1
+455_Georgia Russia_1994,3,455,1
+456_Georgia Turkey_2007,3,456,4
+457_Georgia Turkmenistan_1996,3,457,1
+458_Georgia Ukraine_1995,3,458,1
+46_Argentina Peru_1988,3,46,0
+460_Ghana Upper Volta Trade Agreement_1961,3,460,1
+461_Global System of Trade Preferences (GSTP)_1988,3,461,0
+462_Greater Arab Free Trade Agreement_1997,3,462,2
+464_Group of Three_1994,3,464,#N/A
+464+1_Group of three_2011,3,464+1,#N/A
+465_Group of Three Auto Agreement_2004,3,465,#N/A
+466_GUAM GUUAM Organization for Democracy and Economic Development_2002,3,466,2
+467_Guatemala Mexico_1984,3,467,0
+468_Guatemala Mexico_1999,3,468,0
+469_Guatemala Panama_1974,3,469,0
+47_Argentina Uruguay_2003,3,47,0
+470_Guatemala Taiwan_2005,3,470,5
+471_Guatemala Venezuela_1985,3,471,0
+473_Gulf Cooperation Council (GCC)_1981,3,473,1
+474_Gulf Cooperation Council (GCC)_2001,3,474,1
+475_Gulf Cooperation Council (GCC) Singapore_2008,3,475,4
+476_Guyana Venezuela_1990,3,476,0
+477_Honduras Mexico_1984,3,477,0
+478_Honduras Panama_1973,3,478,0
+48_Argentina Venezuela_1986,3,48,0
+480_Honduras Venezuela_1986,3,480,0
+481_Hungary Israel_1997,3,481,3
+482_Hungary Latvia_1999,3,482,2
+483_Hungary Lithuania_1998,3,483,2
+487_Hungary Slovenia_1994,3,487,2
+488_Hungary Turkey_1997,3,488,3
+489_India Korea_2009,3,489,6
+49_Argentina Venezuela_1992,3,49,1
+490_India MERCOSUR_2004,3,490,1
+491_India Nepal_1991,3,491,0
+492_India Nepal_2009,3,492,1
+493_India Singapore_2005,3,493,4
+494_India Sri Lanka_1998,3,494,1
+495_Indonesia Japan_2007,2,495,5
+496_Inter-Arab Trade Agreement_1981,3,496,1
+497_Iran Pakistan_2004,3,497,1
+498_Iran Syria_2006,3,498,1
+5_Albania Bosnia and Herzegovina_2003,3,5,4
+500_Iraq Jordan_1953,3,500,0
+504_Iraq UAE_1977,3,504,1
+505_Ireland UK Free Trade Area_1965,1,505,1
+506_Israel Jordan_1995,3,506,0
+508_Israel Mercosur_2007,3,508,2
+509_Israel Mexico_2000,3,509,5
+51_Armenia Estonia_2002,3,51,1
+510_Israel PLO_1994,3,510,3
+511_Israel Poland_1997,3,511,2
+512_Israel Romania_2001,3,512,2
+513_Israel Slovakia_1996,3,513,2
+514_Israel Slovenia_1998,3,514,2
+515_Israel Turkey_1996,3,515,3
+516_Israel US_1985,2,516,5
+517_Japan Malaysia_2005,2,517,6
+518_Japan Mexico_2004,2,518,7
+519_Japan Philippines_2006,2,519,6
+52_Armenia Georgia_1995,3,52,2
+520_Japan Singapore_2002,2,520,7
+521_Japan Switzerland_2009,1,521,6
+522_Japan Thailand_2007,2,522,6
+523_Japan Vietnam_2008,2,523,6
+524_Jordan Kuwait_2001,3,524,2
+525_Jordan Kuwait _1986,3,525,1
+526_Jordan Lebanon_1992,3,526,1
+527_Jordan Lebanon_2002,3,527,1
+528_Jordan Libya_1992,3,528,1
+529_Jordan Morocco_1994,3,529,0
+53_Armenia Iran_1995,3,53,0
+530_Jordan Morocco_1998,3,530,2
+531_Jordan PLO_1995,3,531,1
+532_Jordan Qatar_1980,3,532,0
+533_Jordan Saudi Arabia_1962,3,533,0
+534_Jordan Singapore_2004,3,534,4
+535_Jordan Sudan_2003,3,535,2
+536_Jordan Sudan_1966,3,536,0
+537_Jordan Syria_2001,3,537,2
+538_Jordan Syria_1965,3,538,0
+539_Jordan Syria_1975,3,539,0
+54_Armenia Kazakhstan_1999,3,54,2
+540_Jordan Tunisia_1998,3,540,1
+541_Jordan Turkey_2009,3,541,3
+542_Jordan UAE_2000,3,542,1
+543_Jordan US_2000,2,543,3
+544_Kazakhstan Kyrgyzstan_1995,3,544,1
+548_Kazakhstan Ukraine_1994,3,548,1
+55_Armenia Kyrgyzstan_1994,3,55,2
+550_Korea Singapore_2005,3,550,7
+551_Korea US_2007,2,551,7
+554_Kuwait UAE_1972,3,554,0
+555_Kyrgyzstan Moldova_1995,3,555,1
+556_Kyrgyzstan Russia_1992,3,556,1
+558_Kyrgyzstan Ukraine_1995,3,558,2
+559_Kyrgyzstan Uzbekistan_1996,3,559,1
+56_Armenia Moldova_1993,3,56,1
+560_Laos Thailand_1991,3,560,0
+561_Latin American Free Trade Area (LAFTA)_1960,3,561,0
+562_Latin American Integration Association (ALADI LAIA)_1980,3,562,0
+562+1_Latin American Integration Association Cuba accession_1998,3,562+1,#N/A
+564_Latvia Norway_1992,2,564,3
+565_Latvia Poland_1997,3,565,4
+566_Latvia Slovakia_1996,3,566,2
+567_Latvia Slovenia_1996,3,567,4
+568_Latvia Sweden_1992,2,568,2
+569_Latvia Switzerland_1992,2,569,4
+57_Armenia Russia_1992,3,57,1
+570_Latvia Turkey_1998,3,570,2
+574_Libya Morocco_1990,3,574,1
+576_Lithuania Norway_1992,2,576,3
+577_Lithuania Poland_1996,3,577,3
+578_Lithuania Slovakia_1996,3,578,2
+579_Lithuania Slovenia_1996,3,579,3
+580_Lithuania Sweden_1991,2,580,1
+581_Lithuania Switzerland_1992,2,581,3
+582_Lithuania Turkey_1997,3,582,3
+584_Lomé I_1975,2,584,0
+585_Lomé II_1979,2,585,0
+586_Lomé III_1984,2,586,3
+587_Lomé IV_1989,2,587,3
+589_Macedonia Moldova_2004,3,589,2
+59_Armenia Turkmenistan_1995,3,59,1
+590_Macedonia Romania_2003,3,590,3
+592_Macedonia Slovenia_1996,3,592,2
+593_Macedonia Turkey_1999,3,593,3
+594_Macedonia Ukraine_2001,3,594,3
+595_Malawi Mozambique_2005,3,595,1
+598_Malaysia New Zealand_2009,2,598,6
+599_Malaysia Pakistan_2007,3,599,4
+6_Albania Bulgaria_2003,3,6,4
+60_Armenia Ukraine_1994,3,60,1
+600_Mano River Union_1973,3,600,1
+601_Mauritania Morocco_1986,3,601,0
+602_Mauritius Pakistan_2007,3,602,1
+603_Melanesian Spearhead Group (MSG )_1993,3,603,0
+604_MERCOSUR_1991,3,604,2
+605_MERCOSUR Mexico Auto Agreement_2002,3,605,#N/A
+606_MERCOSUR Peru_2005,3,606,3
+607_MERCOSUR services_1997,3,607,#N/A
+608_MERCOSUR Southern African Customs Union (SACU)_2004,3,608,1
+61_Arusha Agreement II_1969,3,61,3
+610_Mexico Nicaragua_1985,3,610,0
+611_Mexico Nicaragua_1997,3,611,6
+612_Mexico_Northern_Triangle_2000,3,612,5
+613_Mexico Panama_1985,3,613,0
+615_Mexico Uruguay_1986,3,615,0
+616_Mexico Uruguay_2003,3,616,6
+617_Moldova Romania_1994,3,617,2
+619_Moldova Serbia_2003,3,619,2
+62_Asia Pacific Trade Agreement (Bangkok Agreement amended)_2005,3,62,1
+621_Moldova Ukraine_2003,3,621,3
+624_Montenegro Turkey_2008,3,624,5
+625_Morocco Tunisia_1999,3,625,2
+626_Morocco Turkey_2004,3,626,3
+627_Morocco UAE_2001,3,627,2
+628_Morocco US_2004,2,628,6
+63_Association of Caribbean States_1994,3,63,0
+630_Namibia Zimbabwe_1992,3,630,0
+631_New Zealand Singapore_2000,2,631,6
+632_New Zealand Thailand_2005,2,632,5
+633_Nicaragua Panama_1973,3,633,0
+634_Nicaragua Taiwan_2006,3,634,6
+635_Nicaragua Venezuela_1986,3,635,0
+636_North American Free Trade Agreement (NAFTA)_1992,2,636,7
+637_Oman US_2006,2,637,6
+638_Organisation of Eastern Caribbean States (OECS)_1981,3,638,1
+639_Pacific Island Countries Trade Agreement (PICTA )_2001,3,639,1
+64_Association of Southeast Asian Nations (ASEAN) FTA_1992,3,64,2
+640_Pakistan Sri Lanka_2002,3,640,3
+641_Panama Singapore_2006,3,641,6
+642_Panama Taiwan_2003,3,642,6
+643_Panama US_2007,2,643,6
+644_Peru Singapore_2008,3,644,7
+645_Peru US_2006,2,645,7
+646_Poland Turkey_1999,3,646,3
+647_Protocol on Trade Negotiations (PTN)_1971,3,647,0
+648_Romania Serbia_2003,3,648,3
+649_Romania Slovakia_1994,3,649,3
+65_Association of Southeast Asian Nations (ASEAN) Preferential Trading Arrangements (PTA)_1977,3,65,1
+650_Romania Turkey_1997,3,650,3
+654_Russia Ukraine_1993,3,654,1
+656_Saudi Arabia UAE_1978,3,656,1
+657_Serbia Turkey_2009,3,657,4
+658_Singapore US_2003,2,658,7
+659_Slovakia Slovenia_1993,3,659,2
+66_Association of Southeast Asian Nations Australia New Zealand FTA (AANZFTA)_2009,2,66,6
+660_Slovakia Turkey_1997,3,660,2
+661_Slovenia Turkey_1998,3,661,3
+663_South Africa Southern Rhodesia Customs Union_1948,3,663,1
+664_South Africa Zimbabwe_1964,3,664,0
+"666_South Asian Association for Regional Cooperation, Preferential Trading Arrangement (SAPTA)_1993",2,666,0
+667_South Asian Free Trade Area (SAFTA)_2004,3,667,1
+668_South Pacific Trade and Economic Co Operation Agreement (SPARTECA )_1980,3,668,1
+669_Southern Africa Customs Union (SACU)_1969,3,669,2
+67_Association of Southeast Asian Nations China_2004,3,67,2
+670_Southern Africa Customs Union (SACU)_2002,3,670,2
+671_Southern African Development Community (SADC)_1992,3,671,0
+672_Southern African Development Community (SADC)_1996,3,672,#N/A
+675_Syria Turkey_2004,3,675,2
+677_Tajikistan Ukraine_2001,3,677,2
+679_Trans Pacific Strategic EPA_2005,2,679,6
+68_Association of Southeast Asian Nations China Services_2007,3,68,#N/A
+680_Treaty of Economic Association_1960,3,680,1
+681_Trinidad and Tobago Venezuela_1989,3,681,0
+682_Tripartite Agreement_1967,3,682,0
+683_Tunisia Turkey_2004,3,683,3
+684_Turkmenistan Ukraine_1994,3,684,1
+686_Ukraine Uzbekistan_1994,3,686,2
+687_United States Vietnam_2000,2,687,4
+688_West African Economic and Monetary Union_1994,3,688,3
+689_Yaoundé I_1963,2,689,1
+69_Association of Southeast Asian Nations Goods_2009,3,69,2
+690_Yaoundé II_1969,2,690,1
+693_Andean Community Auto Agreement_1999,3,693,#N/A
+694_Andean Community Sucre Protocol_1997,3,694,#N/A
+697_Argentina Uruguay_1984,3,697,#N/A
+698_Argentina Uruguay CAUCE_1974,3,698,1
+699_Argentina Uruguay_1982,3,699,1
+7_Albania Croatia_2002,3,7,4
+70_Association of Southeast Asian Nations India_2009,3,70,2
+700_Arusha Agreement I_1968,3,700,2
+706_Benelux Economic Union_1958,1,706,4
+71_Association of Southeast Asian Nations Japan_2008,2,71,3
+714_Central American Common Market (CACM) Protocol of Guatemala_1993,3,714,#N/A
+715_Chile Cuba_1999,3,715,2
+716_Chile Peru_2006,3,716,5
+72_Association of Southeast Asian Nations Korea_2006,3,72,2
+73_Association of Southeast Asian Nations Korea services_2007,3,73,#N/A
+732_Faroe Islands Finland_1992,1,732,3
+74_Australia Canada_1960,1,74,0
+742_Guinea Morocco_1997,3,742,0
+75_Australia Chile_2008,2,75,7
+756_Jordan Sudan amended_1989,3,756,#N/A
+76_Association of Southeast Asian Nations Services_1995,3,76,#N/A
+764_Malawi Zimbabwe_2006,3,764,2
+767_Mexico Peru_1987,3,767,0
+768_Morocco Saudi Arabia_1966,3,768,0
+769_Morocco Senegal_1963,3,769,0
+77_Australia New Zealand (ANZCERTA)_1983,1,77,3
+771_Peru Thailand_2005,3,771,1
+772_PTA for Eastern and Southern African States_1981,3,772,1
+78_Australia New Zealand ANZCERTA services_1988,1,78,#N/A
+780_West African Economic Community (CEAO)_1973,3,780,1
+781_Paraguay Venezuela_2008,3,781,0
+782_Uruguay Venezuela_2008,3,782,0
+783_Canada Portugal_1954,1,783,0
+784_Canada Spain_1954,1,784,0
+785_Latvia Ukraine Agriculture_1998,3,785,#N/A
+787_East African Community (EAC)_1999,3,787,4
+787+1_EAC Burundi_2007,3,787+1,#N/A
+788_East Caribbean Common Market_1968,3,788,2
+789_MERCOSUR Southern African Customs Union (SACU)_2008,3,789,2
+79_Australia New Zealand Free Trade Agreement_1965,1,79,1
+790_El Salvador Guatemala_1991,3,790,1
+792_Brazil Uruguay_1982,3,792,0
+793_EC Switzerland Bilaterals I_1999,1,793,4
+795_Australia Malaysia_2012,2,795,6
+797_Canada Honduras_2013,2,797,6
+798_Canada Panama_2010,2,798,6
+799_Central America EC_2012,2,799,6
+8_Albania EC SAA_2006,2,8,7
+80_Australia Papua New Guinea_1991,2,80,1
+800_Chile Malaysia_2010,3,800,3
+801_Chile Thailand_2013,3,801,4
+803_Chile Vietnam_2011,3,803,3
+804_China Costa Rica_2010,3,804,5
+805_Colombia Costa Rica_2013,3,805,7
+806_Colombia Israel_2013,3,806,5
+808_Colombia Korea_2013,3,808,7
+809_Colombia Panama_2013,3,809,7
+81_Australia Papua New Guinea_1976,2,81,1
+810_Colombia Peru EC_2012,2,810,7
+810+1_Colombia Peru EC Ecuador accession_2016,2,810+1,#N/A
+810+2_Colombia Peru EC Croatia accession_2015,2,810+2,#N/A
+811_Commonwealth of Independent States_2011,3,811,2
+813_Costa Rica Peru_2011,3,813,7
+814_Costa Rica Singapore_2010,3,814,7
+815_EC Korea_2010,2,815,7
+817_EFTA Hong Kong_2011,2,817,6
+818_EFTA Montenegro_2011,2,818,4
+819_EFTA Peru_2010,2,819,6
+82_Australia Singapore_2003,2,82,7
+820_EFTA Ukraine_2010,2,820,7
+821_MERCOSUR Egypt_2010,3,821,3
+822_Guatemala Panama Protocol_2008,3,822,#N/A
+823_Guatemala Peru_2011,3,823,7
+824_Honduras Panama_2007,3,824,#N/A
+825_Hong Kong New Zealand_2010,2,825,7
+826_India Japan_2011,2,826,6
+827_India Malaysia_2011,3,827,5
+829_Japan Peru_2011,2,829,7
+83_Australia Thailand_2004,2,83,5
+830_Korea Peru_2011,3,830,7
+831_Korea Turkey_2012,3,831,4
+832_Mauritius Turkey_2011,3,832,2
+833_Montenegro Ukraine_2011,3,833,3
+834_New Zealand Taiwan_2013,2,834,7
+835_Nicaragua Panama Protocol_2009,3,835,#N/A
+836_Pacific Alliance_2013,3,836,6
+837_Panama Peru_2011,3,837,7
+838_Peru Venezuela_2012,3,838,1
+84_Australia US_2004,1,84,7
+840_Australia China_2015,2,840,5
+842_Australia Japan_2014,1,842,7
+844_Bosnia and Herzogovina EFTA_2013,2,844,4
+848_Canada EC (CETA)_2016,1,848,7
+85_Austria EC_1972,1,85,2
+852_Canada Korea_2014,2,852,6
+855_Canada Ukraine_2016,2,855,6
+858_Chile Hong Kong_2012,3,858,7
+86_Azerbaijan Georgia_1996,3,86,2
+862_China Switzerland_2013,2,862,6
+864_Central America EFTA_2013,2,864,7
+866_EC Georgia_2014,2,866,7
+867_Armenia EC_2018,2,867,7
+869_EC Japan_2018,1,869,7
+872_EC Moldova_2014,2,872,7
+874_EC Singapore_2018,2,874,7
+876_EC Ukraine_2014,2,876,7
+877_EC Vietnam_2016,2,877,7
+885_Guatemala Trinidad Tobago_2015,3,885,2
+890_MERCOSUR Mexico_2003,3,890,#N/A
+891_Mexico Panama_2014,3,891,5
+895_Pacific Agreement on Closer Economic Relations (PACER) Plus_2017,2,895,4
+896_Panama Trinidad Tobago_2013,3,896,2
+899_Transpacific Partnership_2016,3,899,7
+9_Albania EFTA_2009,2,9,6
+9000_GATT47_1947,2,9000,#N/A
+9001_Kennedy Protocols_1967,2,9001,#N/A
+9002_Tokyo Codes_1979,2,9002,#N/A
+9003_WTO Agreements_1994,2,9003,#N/A
+9004_Revised Agreement on Governement Procurement_2012,2,9004,#N/A
+9005_Agreement on Trade Facilitation_2014,2,9005,#N/A
+902_East African Community Common Market_2009,3,902,#N/A
+906_Armenia Cyprus_1996,3,906,#N/A
+907_Bangladesh India_2006,3,907,#N/A
+909_China Korea_2015,3,909,6
+911_Australia Korea_2014,2,911,7
+912_Korea New Zealand_2015,2,912,7
+913_Korea Vietnam_2015,3,913,6
+915_Belarus Kazakhstan Russia Vietnam_2015,3,915,#N/A
+919_Honduras Peru_2015,3,919,7
+92_Azerbaijan Ukraine_1995,3,92,2
+930_Japan Mongolia_2015,2,930,6
+935_India Korea_2009,3,935,#N/A
+94_Bahrain Jordan_2001,3,94,1
+943_Malaysia Turkey_2014,3,943,3
+949_Central America Mexico_2011,3,949,6
+955_China Iceland_2013,2,955,6
+96_Bahrain US_2004,2,96,6
+961_Singapore Taipei_2013,3,961,#N/A
+962_Singapore Turkey_2015,3,962,7
+965_EFTA Philippines_2016,2,965,6
+968_Panama US_Environment,2,968,#N/A
+969_Korea US_Environment,2,969,#N/A
+97_Baltic Free Trade Area (BAFTA) agriculture_1996,3,97,1
+971_Indonesia Pakistan_2012,3,971,#N/A
+972_Ecuador EFTA_2018,2,972,#N/A
+974_Chile Uruguay_2016,3,974,6
+975_EC Kosovo SAA_2015,2,975,5
+976_Laos_US_2003,2,976,4
+977_EC EAC_2016,2,977,#N/A
+978_EC SADC_2016,2,978,4
+979_EC Fiji Papua New Guinea_2009,2,979,#N/A
+98_Baltic Free Trade Area (BAFTA) industrial_1993,3,98,3
+980_EC West African states_2014,2,980,#N/A
+981_EFTA Georgia_2016,2,981,7
+983_Moldova Turkey_2014,3,983,3
+984_Hong Kong Macao_2017,3,984,4
+986_Pan-Arab Free Trade Area PAFTA_1997,3,986,#N/A
+987_EFTA SACU_2006,2,987,7
+1001_Singapore Sri Lanka_2018,3,1001,#N/A
+988_African Continental FTA_2018,3,988,#N/A
+989_Comprehensive and Progressive Agreement for Transpacific Partnership (CPTPP)_2018,2,989,#N/A
+99_Baltic Free Trade Area (BAFTA) Non Tariff Barriers_1997,3,99,1
+990_China Georgia_2017,3,990,6
+992_Australia Peru_2018,2,992,7
+993_Argentina Chile_2017,3,993,#N/A
+995_Eurasian Economic Union (EEU) Iran_2018,3,995,#N/A
+996_Colombia MERCOSUR_2017,3,996,#N/A
+997_EC Kazakhstan_2015,2,997,#N/A
