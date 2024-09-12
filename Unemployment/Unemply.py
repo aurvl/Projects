@@ -1,4 +1,4 @@
-# Python project - Quentin - Aurel
+# Python project
 
 # DATA ANALYSIS AND EMPLOYMENT POLICY GUIDANCE FOR 2024
 print('SECTION 1')
