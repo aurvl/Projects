@@ -1,4 +1,5 @@
 # Factorial Analysis of Mixed Data (FAMD)
+# This study focus on the dimension reduction method named FAMD
 
 # Clearing the workspace
 rm(list = ls())
@@ -10,8 +11,9 @@ rm(list = ls())
 # which is commonly used as a sample dataset in machine learning and statistics contexts.
 # This dataset is often used for tasks such as income classification or prediction.
 
-library("FactoMineR")
-library("factoextra")
+library(FactoMineR)
+library(factoextra)
+library(dplyr)
 
 # Import the dataset
 url <- "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
@@ -23,14 +25,16 @@ column_names <- c(
 
 data_adult <- read.table(url, header = FALSE, sep = ",", col.names = column_names)
 rm(column_names)
+View(data_adult)
 
 # Create a subset dataframe named "df".
 df <- data_adult[, 1:15]
-str(df)
+glimpse(df)
 
 # Remove the redundant "education" variable
 # "education" is already numerically coded under education-num, so we will remove it
-df <- df[, !names(df) %in% c("education")]
+df <- df %>%
+  select(-education)
 
 # Convert categorical variables to factors
 df$workclass <- as.factor(df$workclass)
@@ -47,7 +51,7 @@ df$income <- factor(df$income)
 df <- df[!(grepl("\\?", df$workclass) | grepl("\\?", df$native_country) | grepl("\\?", df$occupation)), ]
 # Summary of our dataset
 head(df[, 1:14], 5)
-str(df)
+glimpse(df)
 # In the df dataset, we have:
 # 8 categorical variables (workclass, marital_status, occupation, relationship, race, sex, native_country, income)
 # 6 quantitative variables (age, fnlwgt, education_num, capital_gain, capital_loss, hours_per_week).
@@ -113,25 +117,7 @@ fviz_contrib(res.famd, "var", axes = 2)
 # 1 - The variables which contribute the most to the first dimension are: relationship and marital_status.
 # 2 - The variables which contribute the most to the second dimension are: occupation and relationship.
 
-# Scatterplots of the original observations on the dimensions
+# Coordinates of the individuals projected onto the factorial space following the FAMD analysis
 ind <- get_famd_ind(res.famd)
-ind
 
-# Scatterplot of the coordinates of each individual observation w.r.t each dimension
-fviz_famd_ind(res.famd, col.ind = "cos2",
-              gradient.cols = c("#00AFBB", "#FF0000", "#00FF00", "#000FF", "#FFFF00", "#FF00FF", " #00FFFF", "#800080", "#008080"), invisible = "quali.var",
-              repel = TRUE)
-
-
-# Ellipses
-fviz_mfa_ind(res.famd,
-             habillage = c( "marital_status", "occupation", "relationship"), # color by groups
-             palette = c("#FF0000", "#00FF00", "#003", "#FFFF00", "#FF00FF", "#039", "#800080", "#008080"),
-             addEllipses = TRUE, ellipse.type = "confidence", # add an ellipse to cluster observations w.r.t. qualitative labels
-             repel = TRUE # Avoid text overlapping
-)
-
-
-fviz_ellipses(res.famd, c( "marital_status", "occupation", "relationship"), repel = TRUE)
-
-
+head(ind$coord)
