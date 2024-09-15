@@ -28,4 +28,4 @@ The analysis was performed using R with the following packages:
 - `ggplot()`: Creates various visualizations to display the results.
 - `lm()`: Performs linear regression analysis.
 
-For further details, please refer to the R script provided in this repository (okun_law.R).
+For further details, please refer to the R script and the pdf document provided in this repository (okun_law.R).
