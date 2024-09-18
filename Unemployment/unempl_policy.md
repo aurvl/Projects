@@ -1,4 +1,4 @@
-# Analysis of Employment Policy Guidance for 2024
+# Phillips Curve Analysis and Policy Guidance for Europe 2024
 
 ## Description
 
