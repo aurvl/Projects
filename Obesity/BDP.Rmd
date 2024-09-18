@@ -1,6 +1,6 @@
 ---
 title: "Obesity - Machine Learning Project"
-author: "Aurel VEHI"
+author: "Kenza & Aurel"
 output:
   html_document:
     toc: true
