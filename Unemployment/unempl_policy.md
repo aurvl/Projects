@@ -32,8 +32,6 @@ The tools and resources used for this project include:
 - **Libraries and Modules**:
   - Statistical and mathematical calculations (e.g., `math`, `numpy` for averaging and statistics).
   - File input/output management.
-- **Development Tools**:
-  - IDE or Python code editor for script development.
-  - Jupyter Notebook or any other environment for running and visualizing results.
+
 
 For detailed implementation and further analysis, refer to the python scripts provided in this repository (policy_guidance.py).
