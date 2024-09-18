@@ -61,4 +61,4 @@ In this study, Okun's Law was generally verified for EU countries, as most exhib
 
 This unique scenario suggests that while Serbia has experienced economic growth, it may not have been sufficient to overcome structural challenges in the labor market and productivity. Further research could explore factors such as sectoral shifts in employment, the impact of foreign direct investment, or the role of technological adoption in shaping these trends.
 
-In conclusion, while Okun’s Law provides a useful framework for understanding the interplay between economic growth and unemployment, individual country cases—like Serbia—highlight the importance of considering broader economic, institutional, and productivity factors when analyzing this relationship.
+In conclusion, while Okun’s Law provides a useful framework for understanding the interplay between economic growth and unemployment, individual country cases like Serbia highlight the importance of considering broader economic, institutional, and productivity factors when analyzing this relationship.
