@@ -1,4 +1,4 @@
-### Report: Analyzing Okun's Law in EU Countries and the Case of Serbia
+# Analyzing Okun's Law in EU Countries and the Case of Serbia
 
 #### 1. **Introduction: Understanding Okun’s Law**
 Okun's Law is an empirically observed relationship between unemployment and GDP growth, suggesting that as an economy grows, the unemployment rate tends to fall. This concept, first proposed by economist Arthur Okun, states that for every percentage point decrease in unemployment, GDP must grow by about 2-3%. Essentially, it links economic growth to job creation, although this relationship can vary between countries due to differences in labor markets and productivity.
