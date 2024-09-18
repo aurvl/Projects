@@ -9,7 +9,6 @@ rm(list = ls())
 library(dplyr)
 library(ggplot2)
 library(eurostat)
-library(tidyverse)
 
 # Now, we are going to import GDP and unemployment data from Eurostat
 gdp <- get_eurostat(id = "nama_10_gdp")
