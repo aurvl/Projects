@@ -79,7 +79,7 @@ plot_rs <- ggplot(okun_rs, aes(x = unemployment_gap, y = growth_rate)) +
   geom_point(shape = 15, color = "#FC67D4") +
   geom_smooth(method = "lm", se = FALSE, color = "#FC67D4") +
   labs(x = "Unemployment Gap", y = "Annual Growth Rate") +
-  ggtitle("Annual Growth and Unemployment Rate for Serbia") +
+  ggtitle("Okun Law - Serbia (2012 - 2023)") +
   theme_minimal()
 print(plot_rs)
 
