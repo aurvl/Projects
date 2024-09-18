@@ -1,7 +1,7 @@
 # Clear the environment
 rm(list = ls())
 
-# Installing and loading required packages ----
+# Installing and loading required packages
 # install.packages("dplyr")
 # install.packages("ggplot2")
 # install.packages("eurostat")
