@@ -11,7 +11,7 @@ I started by importing GDP and unemployment data from the Eurostat database for 
 #### Key Observations:
 - **Visualizing Okun’s Law**: I plotted scatter plots of unemployment gap vs. growth rate for each country and observed a negative trendline for most countries. This aligns with Okun’s Law, indicating that as GDP grows, unemployment tends to decrease.
 
-<img src="Okun Law/img/plot.png" alt="plot" width="400" />
+![plot](/img/plot.png)
 
 - **Regression Results**: Performing linear regression for each country revealed that the coefficient for unemployment was negative for the majority of countries, confirming the inverse relationship between growth rate and unemployment. However, the dataset was limited (2012-2023), which may affect the robustness of these results.
 
