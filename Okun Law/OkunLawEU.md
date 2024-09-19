@@ -11,25 +11,25 @@ I started by importing GDP and unemployment data from the Eurostat database for 
 #### Key Observations:
 - **Visualizing Okun’s Law**: I plotted scatter plots of unemployment gap vs. growth rate for each country and observed a negative trendline for most countries. This aligns with Okun’s Law, indicating that as GDP grows, unemployment tends to decrease.
 
-![plot](/img/plot.png)
+![plot](Okun%Law/img/plot.png)
 
 - **Regression Results**: Performing linear regression for each country revealed that the coefficient for unemployment was negative for the majority of countries, confirming the inverse relationship between growth rate and unemployment. However, the dataset was limited (2012-2023), which may affect the robustness of these results.
 
-![global reg](/img/global_reg.png)
+![global reg](Okun%Law/img/global_reg.png)
 
   Despite the general confirmation of Okun’s Law across EU countries, one exception stood out: Serbia. For Serbia, the regression model indicated a **positive relationship** between unemployment gap and growth rate, which was unexpected and contrary to the general trend.
 
-![serbia reg](/img/serb_reg.png)
+![serbia reg](Okun%Law/img/serb_reg.png)
 
 ### 3. **The Case of Serbia: A Closer Examination**
 
-![plot serb](/img/plot_rs.png)
+![plot serb](Okun%Law/img/plot_rs.png)
 
 #### Visualizing Serbia’s Data:
 
-![GDP serb](/img/gdp_rs_evolution.png)
+![GDP serb](Okun%Law/img/gdp_rs_evolution.png)
 
-![Unemp serb](/img/unemployment_rs_evolution.png)
+![Unemp serb](Okun%Law/img/unemployment_rs_evolution.png)
 
 In the case of Serbia, I focused on visualizing the annual GDP growth and unemployment rate over time. I noticed:
 - **GDP Growth**: Serbia’s GDP showed an overall ascending trend during the study period.
@@ -37,7 +37,7 @@ In the case of Serbia, I focused on visualizing the annual GDP growth and unempl
 
 #### Investigating Labor Productivity:
 
-![Lp serb](/img/wp_rs_evolution.png)
+![Lp serb](Okun%Law/img/wp_rs_evolution.png)
 
 Given that GDP was growing and unemployment was falling, I investigated labor productivity in Serbia to further understand the dynamics. The results were surprising:
 - Labor productivity showed a **descending trend** between 2012-2017 and 2020-2023, while it ascended briefly between 2017-2020. This was counterintuitive since one would expect labor productivity to increase as unemployment decreases.
@@ -47,7 +47,7 @@ One possible explanation for this paradox lies in the threshold concept within O
 
 ### 4. **Comparing Serbia with France and EU-27**
 
-![GDP compare](/img/gdp_evolution.png)
+![GDP compare](Okun%Law/img/gdp_evolution.png)
 
 To better understand Serbia’s unique case, I compared its GDP growth rate with France and the EU-27. This comparison revealed:
 - **EU-27 and France**: Both regions followed a more conventional relationship between GDP growth and unemployment, with labor productivity and GDP trends more aligned with Okun’s Law.
