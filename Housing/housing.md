@@ -34,4 +34,4 @@ The analysis and modeling were performed using Python and the following librarie
 - `LinearRegression()`: Build the linear regression model.
 - `r2_score()`: Evaluate the model’s performance using the R² metric.
 
-For further details, please refer to the Jupyter Notebook provided in this repository (housing.ipynb).
+For further details, please refer to the Jupyter Notebook provided in this repository ([`housing.ipynb`](/Housing/housing.ipynb)).
