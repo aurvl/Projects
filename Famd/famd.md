@@ -47,4 +47,4 @@ The analysis was performed using R with the following tools:
 - `fviz_famd_var()`: Visualizes the contributions of variables to the principal dimensions.
 - `get_famd_ind()`: Provides coordinates of individuals in the reduced dimensional space.
 
-For further details, please refer to the R script provided in this repository (`famd_adut.R`).
+For further details, please refer to the R script provided in this repository ([`famd_adut.R`](/Famd/famd_adult.R)).
