@@ -34,4 +34,4 @@ The tools and resources used for this project include:
   - File input/output management.
 
 
-For detailed implementation and further analysis, refer to the python scripts provided in this repository (policy_guidance.py).
+For detailed implementation and further analysis, refer to the python scripts provided in this repository ([policy_guidance.py](Unemployment/policy_guidance.py).
