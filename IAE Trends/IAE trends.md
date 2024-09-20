@@ -1,6 +1,6 @@
 # Analyse de l'Indice d’Attention portée à l’Environnement (IAE) dans les Accords Commerciaux Préférentiels (ACPr)
 
-<img src = "IAETrends/dashboard/tr1.png" alt = "tr1" width ="600"/>
+<img src = "dashboard/tr1.png" alt = "tr1" width ="600"/>
 
 ## Description du projet
 
