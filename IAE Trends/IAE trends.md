@@ -1,5 +1,7 @@
 # Analyse de l'Indice d’Attention portée à l’Environnement (IAE) dans les Accords Commerciaux Préférentiels (ACPr)
 
+<img src = "IAE Trends/dashboard/tr1.png" alt = "tr1" width ="600"/>
+
 ## Description du projet
 
 Ce projet a pour objectif de mesurer l'importance accordée aux questions environnementales dans les Accords Commerciaux Préférentiels (ACPr) à l'aide de l'**Indice d’Attention portée à l’Environnement (IAE)**. Cet indicateur est calculé à partir des données fournies par la **[Trade & Environment Database (TREND)](https://www.chaire-epi.ulaval.ca/en/trend)**, une base de données complète et reconnue qui recense les clauses environnementales des accords commerciaux internationaux.
