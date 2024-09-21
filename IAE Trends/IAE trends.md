@@ -18,7 +18,7 @@ L'objectif final de ce projet est de produire un **rapport interactif Power BI**
 ## Étapes détaillées
 
 ### 1. **Préparation des données**
-   - **Extraction et nettoyage des données** : Les fichiers .csv issus de la base TREND sont importés et nettoyés. Cela inclut la suppression de colonnes non pertinentes et la gestion des valeurs manquantes.
+   - **Extraction et nettoyage des données** : Les fichiers .csv issus de la base TREND sont importés et nettoyés dans un jupiter notebook (**trend.ipynb**). Cela inclut la suppression de colonnes non pertinentes et la gestion des valeurs manquantes.
    - **Ajout de nouvelles données** : De nouveaux individus (accords) sont introduits au dataset pour des analyses plus précises.
 
 ### 2. **Calcul de l'IAE**
@@ -37,9 +37,9 @@ L'objectif final de ce projet est de produire un **rapport interactif Power BI**
    - **Visualisation des données** : Un rapport interactif Power BI est créé, présentant des graphiques et des cartes pour visualiser les scores IAE et les engagements environnementaux des pays. Le rapport inclut également des analyses temporelles sur les accords signés.
 
 ## Datasets utilisés
-- **TREND 2022 (trend2022.csv)** : Base principale contenant les informations sur les clauses environnementales des ACPr ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
-- **TREND Dyadic 2022 (trenddyadic2022.csv)** : Données spécifiques aux pays impliqués dans ces accords ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
-- **Infos Accords (infos_accords.csv)** : Données régionales sur les accords commerciaux ([DESTA](https://www.designoftradeagreements.org/downloads/)).
+- **trend2022.csv** : Base principale contenant les informations sur les clauses environnementales des ACPr ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
+- **trenddyadic2022.csv** : Données spécifiques aux pays impliqués dans ces accords ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
+- **infos_accords.csv** : Données régionales sur les accords commerciaux ([DESTA](https://www.designoftradeagreements.org/downloads/)).
 
 ## Outils et librairies utilisés
 - **Python** : Principal langage utilisé pour l’analyse et le traitement des données. Librairies utilisées :
