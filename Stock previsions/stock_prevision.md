@@ -14,7 +14,7 @@ Les objectifs principaux de cette étude sont :
 4. **Fournir des prévisions sur 10 trimestres pour aider à l'adaptation des stratégies commerciales.**
 5. **Comprendre la dynamique du commerce extérieur belge et son impact sur l'économie nationale.**
 
-## L'ensemble de données
+## Le dataset
 
 Les données utilisées dans cette étude incluent :
 
