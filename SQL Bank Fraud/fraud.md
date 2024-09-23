@@ -102,8 +102,7 @@ You can deploy this project online using a free hosting service like [InfinityFr
 For a more detailed guide on deploying projects to InfinityFree, visit their [documentation]([https://support.infinityfree.net/getting-started/](https://forum.infinityfree.com/)).
 
 #### Deployed Version
-Here is the link to the deployed version of the form:  
-[Banking Fraud Analysis - Deployed](http://auradev.infinityfreeapp.com/fraud_project/index.html)
+Here is the link to the deployed version of the form : [Banking Fraud Analysis - Deployed](http://auradev.infinityfreeapp.com/fraud_project/index.html)
 
 ### Files included in this project (`fraud_project`)
 - `index.html`: All frontend code for user interaction.
