@@ -44,22 +44,22 @@ Follow these steps to run the project locally using XAMPP:
    - Create a new database named `fraud_db`.
    - Run the following SQL script to create the `transactions` table:
 
-     ```sql
-      CREATE TABLE transactions(
-     transaction_id INT AUTO_INCREMENT PRIMARY KEY,
-          full_name VARCHAR(100),
-          gender VARCHAR(25),
-          country VARCHAR(50),
-          state VARCHAR(50),
-          city VARCHAR(50),
-          category VARCHAR(100),
-          amount INT,
-          fraud_status BOOLEAN,
-          likes_money INT,
-          risk_choice VARCHAR(10),	
-          date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-      );
-     ```
+```sql
+CREATE TABLE transactions(
+  transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+  full_name VARCHAR(100),
+  gender VARCHAR(25),
+  country VARCHAR(50),
+  state VARCHAR(50),
+  city VARCHAR(50),
+  category VARCHAR(100),
+  amount INT,
+  fraud_status BOOLEAN,
+  likes_money INT,
+  risk_choice VARCHAR(10),	
+  date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
 
 #### d. Update Configuration Files
    - Modify the `connect.php` file to use your local MySQL credentials (hostname, username, password, database_name) :
