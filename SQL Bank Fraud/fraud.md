@@ -66,6 +66,7 @@ CREATE TABLE transactions(
      ```php
      $conn = new mysqli('localhost', 'root', '', 'fraud_db');
      ```
+  - A PHP code named `connexion_test.php` to test the connexion to the DB is included in the `fraud_project` directory. You can run it by navigating to `http://localhost/fraud_project/connexion_test.php`.
 
 #### e. Test the Application
    - Open your browser and go to `http://localhost/fraud_project/index.html`.
