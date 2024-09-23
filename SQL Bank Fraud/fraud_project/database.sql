@@ -1,3 +1,4 @@
+-- Open MySQL and run the following code
 -- Not execute if you have already create the DB
 -- CREATE DATABASE fraud_db;
 USE fraud_db;
