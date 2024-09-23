@@ -104,7 +104,7 @@ For a more detailed guide on deploying projects to InfinityFree, visit their [do
 Here is the link to the deployed version of the form:  
 [Banking Fraud Analysis - Deployed](http://auradev.infinityfreeapp.com/fraud_project/index.html)
 
-### Files included in this repo
+### Files included in this project (`fraud_project`)
 - `index.html`: All frontend code for user interaction.
 - `app.js`: For form validation and dynamic data.
 - `connect.php`: Backend processing logic, but ensure no sensitive info is exposed.
