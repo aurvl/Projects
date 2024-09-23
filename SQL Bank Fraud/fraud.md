@@ -110,3 +110,6 @@ Here is the link to the deployed version of the form:
 - `app.js`: For form validation and dynamic data.
 - `connect.php`: Backend processing logic, but ensure no sensitive info is exposed.
 - `database.sql`: A file containing the SQL code needed to create your database and tables.
+
+
+Feel free to share any suggestions or improvements for this project by reaching out to me, or by submitting a pull request or a fork. Thank you and happy exploring !
