@@ -46,7 +46,7 @@ Follow these steps to run the project locally using XAMPP:
 
      ```sql
       CREATE TABLE transactions(
-      	transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+      	  transaction_id INT AUTO_INCREMENT PRIMARY KEY,
           full_name VARCHAR(100),
           gender VARCHAR(25),
           country VARCHAR(50),
