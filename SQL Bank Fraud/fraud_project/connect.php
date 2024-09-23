@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $riskChoice = $_POST['riskChoice'];
 
     // Connexion à la base de données
-    $conn = new mysqli('sql108.infinityfree.com', 'if0_37367293', 'nVEQDndt9uhs', 'if0_37367293_fraud_db');
+    $conn = new mysqli('', '', '', ''); // Entrez vos identifiants ici
     
     // Vérification de la connexion
     if ($conn->connect_error) {
