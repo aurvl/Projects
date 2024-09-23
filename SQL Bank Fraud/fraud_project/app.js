@@ -105,8 +105,8 @@ function loadStates() {
 
     const selectedCountryCode = countrySelect.value
     // console.log(selectedCountryCode);
-    stateSelect.innerHTML = '<option value="">Select State</option>' // for clearing the existing states
-    citySelect.innerHTML = '<option value="">Select City</option>' // Clear existing city options
+    stateSelect.innerHTML = '<option value="">Select State</option>'; // Pour clear les etats existant ds le champ
+    citySelect.innerHTML = '<option value="">Select City</option>';
 
     fetch(`${config.cUrl}/${selectedCountryCode}/states`, {headers: {"X-CSCAPI-KEY": config.ckey}})
     .then(response => response.json())
