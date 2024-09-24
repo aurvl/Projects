@@ -30,7 +30,8 @@ Follow these steps to run the project locally using XAMPP:
 #### a. Install XAMPP Control Panel
    - Download and install [XAMPP](https://www.apachefriends.org/download.html) for your operating system.
    - Ensure that Apache and MySQL services are running in the XAMPP Control Panel.
-     <img src="img/xampp.png" alt="xampp" width="500" style="display:inline-block; vertical-align:middle;" />
+     
+     <img src="img/transactions.png" alt="xampp" width="500" style="display:inline-block; vertical-align:middle;" />
 
 #### b. Project Files
    - Download the directory `fraud_project` and put it into the `htdocs` folder of your XAMPP installation.
