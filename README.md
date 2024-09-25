@@ -1,5 +1,5 @@
 # Projects : Un Portefeuille de Réalisations
-Bienvenue dans mon dépôt GitHub, un espace où je partage et présente mes projets réalisés au cours de mon parcours académique et professionnel. Vous trouverez ici une collection de travaux qui illustrent mes compétences en programmation, en analyse de données, en économie, ainsi que d'autres domaines dans lesquels j'ai eu l'occasion de m'impliquer.
+Bienvenue dans ce dépôt GitHub, un espace où je partage et présente mes projets réalisés au cours de mon parcours académique et professionnel. Vous trouverez ici une collection de travaux qui illustrent mes compétences en programmation, en analyse de données, en économie, ainsi que d'autres domaines dans lesquels j'ai eu l'occasion de m'impliquer.
 
 ## Objectif du Dépôt
 Ce dépôt a pour but de :
