@@ -18,7 +18,7 @@ L'objectif final de ce projet est de produire un **rapport interactif Power BI**
 ## Étapes détaillées
 
 ### 1. **Préparation des données**
-   - **Extraction et nettoyage des données** : Les fichiers .csv issus de la base TREND sont importés et nettoyés dans un jupiter notebook (**trend.ipynb**). Cela inclut la suppression de colonnes non pertinentes et la gestion des valeurs manquantes.
+   - **Extraction et nettoyage des données** : Les fichiers .csv issus de la base TREND sont importés et nettoyés dans un jupiter notebook (`trend.ipynb`). Cela inclut la suppression de colonnes non pertinentes et la gestion des valeurs manquantes.
    - **Ajout de nouvelles données** : De nouveaux individus (accords) sont introduits au dataset pour des analyses plus précises.
 
 ### 2. **Calcul de l'IAE**
