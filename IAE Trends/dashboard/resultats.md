@@ -6,6 +6,7 @@
 - **Accords totaux analysés : 775**
   - L'IAE moyen de 1.70 indique que l'environnement commence à être pris en compte dans les accords, mais reste secondaire.
   - **Augmentation de l'IAE depuis les années 1980** : Cette croissance reflète une sensibilisation accrue aux questions environnementales dans le cadre des accords commerciaux internationaux, en particulier depuis la fin des années 1980.
+  - **Différence Nord-Sud** : Les accords Nord-Sud montrent une plus grande prise en compte de l’environnement comparativement aux accords Nord-Nord ou Sud-Sud, indiquant une disparité géographique dans la façon dont les pays abordent ces enjeux.
 
 <div style="text-align: center;">
   <img src="tr1.png" alt="Dashboard accords" style="border-radius: 15px; width: 95%;">
@@ -16,7 +17,7 @@
 ### 2. Vue par pays
 - **216 pays et groupements de pays ont signé des accords de commerce**.
   - Les **États-Unis** se démarquent avec un IAE moyen de 3.55, suggérant une forte intégration des clauses environnementales.
-  - **Différence Nord-Sud** : Les accords Nord-Sud montrent une plus grande prise en compte de l’environnement comparativement aux accords Nord-Nord ou Sud-Sud, indiquant une disparité géographique dans la façon dont les pays abordent ces enjeux.
+  - En général, les pays développés montrent une plus grande attention aux enjeux environnementaux dans leurs accords commerciaux, bien que cette attention puisse être influencée par le nombre d'accords signés.
 
 <div style="text-align: center;">
   <img src="tr2.png" alt="Dashboard pays" style="border-radius: 15px; width: 95%;">
