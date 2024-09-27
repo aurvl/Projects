@@ -8,6 +8,8 @@ Ce dépôt a pour but de :
 * Mettre en avant mon évolution, mes compétences techniques et mon apprentissage.
 * Partager mes connaissances et mes solutions avec la communauté.
 
+Le différents fichiers ***.md*** inclus dans les dossiers sont la pour apporter une petite description du projet.
+
 ## Comment Contribuer ?
 Si vous souhaitez apporter des améliorations ou si vous avez des suggestions, n'hésitez pas à faire un `fork` du projet et soumettre une `pull request`. Vous pouvez également me contacter pour discuter de mes projets ou collaborer sur des idées.
 
