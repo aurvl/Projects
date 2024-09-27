@@ -4,9 +4,9 @@ Bienvenue dans ce dépôt GitHub, un espace où je partage et présente mes proj
 ## Objectif du Dépôt
 Ce dépôt a pour but de :
 
-* Centraliser mes projets réalisés dans divers langages et outils.
-* Mettre en avant mon évolution, mes compétences techniques et mon apprentissage.
-* Partager mes connaissances et mes solutions avec la communauté.
+* **Centraliser mes projets réalisés dans divers langages et outils.**
+* **Mettre en avant mon évolution, mes compétences techniques et mon apprentissage.**
+* **Partager mes connaissances et mes solutions avec la communauté.**
 
 Le différents fichiers ***.md*** inclus dans les dossiers sont la pour apporter une petite description du projet.
 
