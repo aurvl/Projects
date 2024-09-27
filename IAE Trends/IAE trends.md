@@ -7,7 +7,7 @@
 
 ## Description du projet
 
-Ce projet a pour objectif de mesurer l'importance accordée aux questions environnementales dans les Accords Commerciaux Préférentiels (ACPr) à l'aide de l'**Indice d’Attention portée à l’Environnement (IAE)**. Cet indicateur est calculé à partir des données fournies par la **[Trade & Environment Database (TREND)](https://www.chaire-epi.ulaval.ca/en/trend)**, une base de données complète et reconnue qui recense les clauses environnementales des accords commerciaux internationaux.
+Ce projet a pour objectif de mesurer l'importance accordée aux questions environnementales dans les Accords Commerciaux Préférentiels (ACPr) à l'aide de l'**Indice d’Attention portée à l’Environnement (IAE)**. Cet indicateur est calculé à partir des données fournies par la **[Trade & Environment Database (TREND)](https://www.chaire-epi.ulaval.ca/en/trend)**, la base de donées la plus complète à ce jour sur les clauses environnementales dans les accords commerciaux internationaux.
 
 Le processus s'articule autour de l'utilisation de plusieurs outils analytiques, dont **Python**, **Excel**, et **Power BI**, pour extraire, transformer, analyser et visualiser les données.
 
