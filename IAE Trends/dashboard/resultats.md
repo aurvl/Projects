@@ -11,8 +11,10 @@
 <div style="text-align: center;">
   <img src="tr1.png" alt="Dashboard accords" style="border-radius: 15px; width: 95%;">
 </div>
+<br>
 
 **Interprétation** : L'intégration croissante des clauses environnementales dans les ACPr est un signe de la prise de conscience mondiale des enjeux écologiques. Cette tendance, particulièrement visible dans les accords Nord-Sud, reflète les efforts des pays pour intégrer des clauses visant à harmoniser les pratiques environnementales internationales.
+<br>
 
 ### 2. Vue par pays
 - **216 pays et groupements de pays ont signé des accords de commerce**.
@@ -22,6 +24,7 @@
 <div style="text-align: center;">
   <img src="tr2.png" alt="Dashboard pays" style="border-radius: 15px; width: 95%;">
 </div>
+<br>
 
 **Interprétation** : Les pays développés, notamment les États-Unis et certains pays européens, montrent un engagement plus prononcé à l’égard de l’environnement dans leurs accords. En revanche, les pays en développement semblent prioriser la croissance économique, ce qui se traduit par des scores IAE plus bas. Les résultats soulignent également le rôle des facteurs comme la démocratie, la proximité géographique et les émissions de CO2 dans la formulation des clauses environnementales.
 
