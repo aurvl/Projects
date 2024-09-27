@@ -53,3 +53,8 @@ L'objectif final de ce projet est de produire un **rapport interactif Power BI**
 Pour un aperçu plus détaillé du processus de création de l'indicateur IAE et une explication technique complète, vous pouvez consulter le **PDF** ci-dessous :
 
 **[Télécharger le PDF détaillant la création de l’indicateur IAE](https://drive.google.com/file/d/1m1CoiJk8brmNx2D9m2sQcm7lRcRZim5W/view?usp=sharing)**
+
+## Résultats
+Les résultats sont présentés dans le dossier dashboard de projet. Vous pouvez y acceder en cliquant [ici](https://github.com/aurvl/Projects/tree/main/IAE%20Trends/dashboard).
+
+Merci et bonne exploration !😁
