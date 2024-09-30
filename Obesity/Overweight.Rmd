@@ -1,5 +1,5 @@
 ---
-title: "Obesity - Machine Learning Project"
+title: "Overweight - Machine Learning Project"
 author: "Aurel VEHI"
 output:
   html_document:
