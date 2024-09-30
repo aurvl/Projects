@@ -13,7 +13,7 @@ This project explores the use of various classification models to predict whethe
 
 ## Dataset
 
-The dataset used in this analysis contains various features related to individuals, including:
+The dataset used in this analysis ([source](https://github.com/Eben2020-hp/Obesity/raw/main/Obesity.csv)) contains various features related to individuals, including:
 
 - `Weight`: Weight of the individual (numeric)
 - `Age`: Age of the individual (numeric)
@@ -70,4 +70,4 @@ The analysis was performed using R with the following tools:
 
 The Random Forest model demonstrates superior performance across all metrics, including accuracy, precision, recall, and F1-score. The XGBoost Classifier, while having a high AUC-ROC, shows poor performance in terms of accuracy and recall, making it less reliable for this dataset.
 
-For detailed implementation and further analysis, refer to the Rmd scripts and results provided in this directory ([Overweight.Rmd](/Overweight/Overweight.Rmd) & [Overweight.html](/Overweight/Overweight.html)).
+For detailed implementation and further analysis, refer to the Rmd scripts and results provided in this directory ([Overweight.Rmd](/Overweight/Overweight.Rmd) & download [Overweight.html](/Overweight/Overweight.html)).
