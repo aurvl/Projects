@@ -1,4 +1,4 @@
-# Analysis of Economic Indicators: Okun's Law
+# Analysis of Economic Indicators: Okun's Law 📉
 
 ## Description
 This project focuses on analyzing economic indicators, specifically GDP and unemployment rates, using data from Eurostat. The primary goal is to understand the relationships between GDP growth and unemployment rates through the lens of Okun's Law. Okun's Law provides a framework for exploring how changes in unemployment rates relate to changes in GDP, allowing us to assess economic performance and trends over time.
