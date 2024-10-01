@@ -1,4 +1,4 @@
-# Banking Fraud Analysis Project
+# Banking Fraud Analysis Project 🥷💳
 
 ## Description
 This project simulates fictive banking transactions and records users' responses related to their attitude toward risk and money. The goal is to collect data from users and store it in a MySQL database to analyze potential indicators of fraudulent behavior. The application is built using HTML, CSS, JavaScript (for form validation and dynamic data), PHP (for backend processing), and MySQL (for database storage).
