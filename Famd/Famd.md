@@ -1,4 +1,4 @@
-# Factorial Analysis of Mixed Data (FAMD)
+# Factorial Analysis of Mixed Data (FAMD) 🔢
 
 ## Description
 
