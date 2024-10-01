@@ -1,4 +1,4 @@
-# Analyse de l'Indice d’Attention portée à l’Environnement (IAE) dans les Accords Commerciaux Préférentiels (ACPr)
+# Analyse de l'Indice d’Attention portée à l’Environnement (IAE) dans les Accords Commerciaux Préférentiels (ACPr) 📊📈
 
 <p>
    <img src = "dashboard/tr1.png" alt = "tr1" width ="600" style="display:inline-bock; vertical-align:middle"/>
