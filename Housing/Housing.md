@@ -1,4 +1,4 @@
-# House Price Prediction
+# House Price Prediction 🏠
 
 ## Description
 This project applies machine learning techniques to predict house prices based on a dataset containing various features related to housing and area demographics. The goal is to build a predictive model using linear regression and evaluate its performance in terms of how well it can estimate house prices. Additionally, we will explore the dataset through data visualization and analysis.
