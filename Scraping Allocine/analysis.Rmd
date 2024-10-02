@@ -1,0 +1,164 @@
+---
+title: "AlloCiné TV Series data analysis"
+output:
+  html_document:
+    df_print: paged
+    css: style.css
+---
+
+[![](images/header-allocine-1920_615-1.jpg)](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.webedia-group.com%2Fnews%2Fnetworks%2Frecords-daudience-pour-allocine-en-janvier-2024&psig=AOvVaw3w9eC87MPGK4eESLrlEmR_&ust=1727913349578000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDimv-w7ogDFQAAAAAdAAAAABAE)
+
+# Intro
+
+This notebook uses the `film_data` to explore the relationship between **episode duration** and **audience ratings** for TV series. The goal is to determine whether the length of a TV series episode has any significant influence on how much the audience likes the series.
+
+To test this hypothesis, we will perform a linear regression analysis between episode duration and audience ratings.
+
+# Step 1 : Import Data & Initial Visualization
+
+First, we need to import the data from the SQL database and visualize the distribution of our variables to get an initial understanding.
+
+### Importing the Data
+
+We start by installing and loading the necessary packages and creating a connection to the MySQL database:
+
+```{r message=FALSE, warning=FALSE}
+# install.packages("RMySQL")
+# install.packages("DBI")
+# install.packages("ggplot2")
+
+library(RMySQL)
+library(DBI)
+library(ggplot2)
+```
+
+We create a connexion to the database
+
+```{r}
+# Create a connection to the MySQL database
+con <- dbConnect(
+   RMySQL::MySQL(),
+   dbname = "seriesdb",
+   host = "localhost",  # or the IP address of your MySQL server
+   user = "root", # Your username, by default root
+   password = "xxxxxxxx" # your mysql password
+)
+```
+
+And now we are going to query the database to have the needed data.
+
+```{r warning=FALSE}
+# Query the table
+my_data <- dbGetQuery(con, "SELECT genre, duration, audience_rating FROM series")
+head(my_data)
+
+```
+
+### Visualization of the Data
+
+Let's begin by observing the distribution of the two main variables : duration and audience rating.
+
+1.  **Scatter Plot** : We plot the relationship between duration and audience rating, grouped by genre.
+
+```{r error=FALSE}
+# Duration vs Audience rating by Genre
+scatter <- ggplot(my_data, aes(duration, audience_rating, color = genre)) +
+   geom_point(size = 2, alpha = 0.8) +
+   labs(
+      title = "Scatter Plot of Duration vs Audience Rating",
+      x = "Duration (min)",
+      y = "Audience Rating",
+      color = "Genre"
+   ) +
+   theme_minimal(base_size = 11) +
+   theme(
+      plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+      legend.position = "top"
+  )
+scatter
+
+```
+
+2.  **Density Plots** : These plots show how the variables are distributed.
+
+```{r warning=FALSE}
+# Density plot of duration
+d1 <- ggplot(my_data, aes(x = duration, fill = "blue")) +
+  geom_density(alpha = 0.7, fill = "#3498db", color = "#2980b9", size = 1) +
+  labs(
+    title = "Density Plot of Duration",
+    x = "Duration (min)",
+    y = "Density"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    legend.position = "none"
+  )
+d1
+
+# Density plot of audience rating
+d2 <- ggplot(my_data, aes(x = audience_rating, fill = "green")) +
+  geom_density(alpha = 0.7, fill = "#2ecc71", color = "#27ae60", size = 1) +
+  labs(
+    title = "Density Plot of Audience Rating",
+    x = "Audience Rating",
+    y = "Density"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    legend.position = "none"
+  )
+d2
+```
+
+**Interpretation**
+
+-   Most TV series have episode durations clustered between **40 to 50 minutes**.
+
+-   Audience ratings tend to be higher, generally around **4**, for series of various durations and genres.
+
+-   Some genres, like **Drama** ('Drame'), are spread across a broader range of durations, while others are concentrated in specific ranges.
+
+-   The density plots show that most series have durations around **40-50 minutes**, and audience ratings are predominantly in the **3.5 to 4.5 range**, indicating that these series are generally well-received by audiences.
+
+# Step 2: Implementing the Linear Regression Model
+
+We will now apply a simple linear regression model to determine if there is a statistically significant relationship between **episode duration** and **audience rating**.
+
+The regression model follows the equation:
+
+$$
+audience\_rating_i = \alpha + \beta \cdot duration_i + \epsilon_i
+$$
+
+Where:
+
+-   $\alpha$ is the intercept.
+
+-   $\beta$ is the coefficient for **duration**.
+
+-   $\epsilon_i$ is the error term for each observation.
+
+#### Running the Model
+
+```{r}
+# Linear regression model
+model <- lm(audience_rating ~ duration, data = my_data)
+summary(model)
+```
+
+### Model Interpretation
+
+-   The **intercept** estimate is 3.583, which means that the baseline audience rating is around **3.58** when the episode duration is zero (not realistic but this is what the intercept represents).
+
+-   The **coefficient for duration** is 0.002, indicating that for every additional minute of episode duration, the audience rating is expected to increase by **0.002** points, on average. However, this effect is not statistically significant, as shown by the high p-value (0.588).
+
+-   The **R-squared** value is very low (**0.005**), meaning that only 0.5% of the variance in audience ratings is explained by episode duration. This suggests that episode duration does not have a strong explanatory power for audience ratings.
+
+-   Overall, the model shows that **duration is not a significant predictor** of audience ratings, and the relationship between these two variables is very weak.
+
+# Conclusion
+
+After running the linear regression model, we conclude that the **duration** of a TV series episode does **not significantly influence** the audience rating. The model has very low explanatory power, and the coefficient for duration is small and statistically insignificant. This suggests that other factors (such as genre, storyline, cast, etc.) may play a more important role in determining audience ratings than just episode length.
