@@ -30,13 +30,13 @@ The dataset consists of 57 TV series scraped from [AlloCiné](https://www.alloci
 - **Description** 📜
 
 ## SQL Queries and Insights
-Once the data was imported into SQL, I ran queries to discover:
+Once the data was imported into SQL ([series.sql](https://github.com/aurvl/Projects/blob/main/Scraping%20Allocine/series.sql)), I ran queries to discover:
 - 📈 **The series with the highest press rating**.
 - ⭐ **The most loved by the audience** based on public ratings.
 - 📝 **The series with the most critiques** from the press.
 - etc...
   
-The power of SQL helped me dive deeper into the data and unlock these fascinating insights!💡 (for an example please refer to [analysis.Rmd](https://github.com/aurvl/Projects/blob/main/Scraping%20Allocine/analysis.Rmd) or [download the analysis](https://github.com/aurvl/Projects/blob/main/Scraping%20Allocine/analysis.html)).
+The power of SQL helped me dive deeper into the data and unlock these fascinating insights!💡 (for an example please refer to [analysis.Rmd](https://github.com/aurvl/Projects/blob/main/Scraping%20Allocine/analysis/analysis.Rmd) or [download the analysis](https://github.com/aurvl/Projects/blob/main/Scraping%20Allocine/analysis/analysis.html)).
 
 ## Tools
 - **Python** 🐍 for web scraping and data manipulation.
