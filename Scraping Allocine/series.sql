@@ -75,7 +75,7 @@ SELECT	AVG(duration) AS 'Average Duration (in min)',
 		AVG(press_rating) AS 'Average Press Rating',
 		AVG(press_critics) AS 'Average Number of Critics',
 		AVG(audience_rating) AS 'Average Audience Rating',
-        AVG(seasons_nb) AS 'Average Number of Seasons',
+        	AVG(seasons_nb) AS 'Average Number of Seasons',
 		AVG(episodes_nb) AS 'Average Number of Episodes'
 FROM series;
 
