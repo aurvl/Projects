@@ -14,4 +14,4 @@ Le différents fichiers ***.md*** inclus dans les dossiers sont la pour apporter
 Si vous souhaitez apporter des améliorations ou si vous avez des suggestions, n'hésitez pas à faire un `fork` du projet et soumettre une `pull request`. Vous pouvez également me contacter pour discuter de mes projets ou collaborer sur des idées.
 
 ## Contacts
-Je suis toujours ouvert à de nouvelles opportunités, collaborations ou simplement à des échanges constructifs. Vous pouvez me joindre via mon [Profil GitHub](https://github.com/aurvl), par [Email](mailto:aurelvehi@outlook.fr) ou sur [LinkedIn](https://www.linkedin.com/in/loua-aurel-vehi-29887a290/).
+Je suis toujours ouvert à de nouvelles opportunités, collaborations ou simplement à des échanges constructifs. Vous pouvez me joindre via mon [Profil GitHub](https://github.com/aurvl), sur [Hashnode](https://hashnode.com/@aurvl), sur [LinkedIn](https://www.linkedin.com/in/loua-aurel-vehi-29887a290/) ou via [mon site web](#).
