@@ -39,7 +39,7 @@ L'objectif final de ce projet est de produire un **rapport interactif Power BI**
 ## Datasets utilisés
 - **trend2022.csv** : Base principale contenant les informations sur les clauses environnementales des ACPr ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
 - **trenddyadic2022.csv** : Données spécifiques aux pays impliqués dans ces accords ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
-- **infos_accords.csv** : Données régionales sur les accords commerciaux ([DESTA](https://www.designoftradeagreements.org/downloads/)).
+- **infos_accords.csv** : Données régionales et géographiques sur les accords commerciaux ([DESTA](https://www.designoftradeagreements.org/downloads/)).
 
 ## Outils et librairies utilisés
 - **Python** : Principal langage utilisé pour l’analyse et le traitement des données. Librairies utilisées :
