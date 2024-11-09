@@ -1,5 +1,13 @@
 # Analysis of Economic Indicators: Okun's Law 📉
 
+#### Structure of the Famd directory
+```
+Okun Law/
+  - Okun Law.md : Documentation on the project
+  - okun_law.R : R script where analysis, visualisations and modelisations are realised.
+  - Report.pdf : A PDF document that outlines all the steps and results of the project.
+```
+
 ## Description
 This project focuses on analyzing economic indicators, specifically GDP and unemployment rates, using data from Eurostat. The primary goal is to understand the relationships between GDP growth and unemployment rates through the lens of Okun's Law. Okun's Law provides a framework for exploring how changes in unemployment rates relate to changes in GDP, allowing us to assess economic performance and trends over time.
 
