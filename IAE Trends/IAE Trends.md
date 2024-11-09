@@ -6,25 +6,25 @@
 #### Structure du projet
 ```
 IAE Trends/
-   - IAE Trends.md : Documentation du projet
-   - trend.ipynb : Notebook contenant toutes les étapes de préprocessing et de calcul de l'indicateur
+   |- IAE Trends.md : Documentation du projet
+   |- trend.ipynb : Notebook contenant toutes les étapes de préprocessing et de calcul de l'indicateur
 
-   source /
-         - country_trend2.xlsx : Dataset corrigé des noms de pays incohérents
-         - infos_accords.csv : Données géographiques sur les accords
-         - trend2022.csv : Data sur les clauses environnementales
-         - trenddyadic2022.rar : fichier compressé contenant une version dyadic de trend2022.csv
+   |- source /
+         |- country_trend2.xlsx : Dataset corrigé des noms de pays incohérents
+         |- infos_accords.csv : Données géographiques sur les accords
+         |- trend2022.csv : Data sur les clauses environnementales
+         |- trenddyadic2022.rar : fichier compressé contenant une version dyadic de trend2022.csv
 
-   correction noms pays/
-         - res_pays problems.xlsx : Excel file contenant les noms de pays érronés et leur correction
+   |- correction noms pays/
+         |- res_pays problems.xlsx : Excel file contenant les noms de pays érronés et leur correction
 
-   results/
-         - df_score.csv : Dataset contenant les calculs IAE /accord commercial (résulte de trend.ipynb)
-         - data_pays.csv : Dataset contenant les calculs IAE /pays (résulte de trend.ipynb)
+   |- results/
+         |- df_score.csv : Dataset contenant les calculs IAE /accord commercial (résulte de trend.ipynb)
+         |- data_pays.csv : Dataset contenant les calculs IAE /pays (résulte de trend.ipynb)
 
-   dashboard/
-         - trend_dashboard.pbix : Power BI dashboard réalisé à partir des dataframe obtenues
-         - resultats.md : Intrpretation du dashboard
+   |- dashboard/
+         |- trend_dashboard.pbix : Power BI dashboard réalisé à partir des dataframe obtenues
+         |- resultats.md : Intrpretation du dashboard
 ```
 
 ## Description du projet
