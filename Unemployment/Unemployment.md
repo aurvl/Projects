@@ -1,5 +1,12 @@
 # Phillips Curve Analysis and Policy Guidance for Europe 2024
 
+#### Structure of the project
+```
+Unemployment/
+    |- Unemployment.md : Documentation of the project
+    |- policy_guidance.py : This is the Python script that contains the analysis
+```
+
 ## Description
 
 This Python project involves an econometric analysis of inflation and unemployment rates for five European countries (France, Germany, Italy, Netherlands, United Kingdom) for the year 2023, with projections for 2024. The project includes three main sections:
