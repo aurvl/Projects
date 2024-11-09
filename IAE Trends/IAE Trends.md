@@ -1,13 +1,31 @@
 # Analyse de l'Indice d’Attention portée à l’Environnement (IAE) dans les Accords Commerciaux Préférentiels (ACPr) 📊
 
-<p>
-   <img src = "dashboard/tr1.png" alt = "tr1" width ="600" style="display:inline-bock; vertical-align:middle"/>
-   <img src = "dashboard/tr2.png" alt = "tr1" width ="600" style="display:inline-bock; vertical-align:middle"/>
-</p>
+<p><img src="dashboard/tr1.png" alt="tr1" width="600" style="display:inline-bock; vertical-align:middle"/> <img src="dashboard/tr2.png" alt="tr1" width="600" style="display:inline-bock; vertical-align:middle"/></p>
+
+
+#### Structure du projet
+```
+IAE Trends/
+   - IAE Trends.md : Documentation du projet
+   - trend.ipynb : Notebook contenant toutes les étapes de préprocessing et de calcul de l'indicateur
+   - source /
+         - country_trend2.xlsx : Dataset corrigé des noms de pays incohérents
+         - infos_accords.csv : Données géographiques sur les accords
+         - trend2022.csv : Data sur les clauses environnementales
+         - trenddyadic2022.rar : fichier compressé contenant une version dyadic de trend2022.csv
+   - correction noms pays/
+         - res_pays problems.xlsx : Excel file contenant les noms de pays érronés et leur correction
+   - results/
+         - df_score.csv : Dataset contenant les calculs IAE /accord commercial (résulte de trend.ipynb)
+         - data_pays.csv : Dataset contenant les calculs IAE /pays (résulte de trend.ipynb)
+   - dashboard/
+         - trend_dashboard.pbix : Power BI dashboard réalisé à partir des dataframe obtenues
+         - resultats.md : Intrpretation du dashboard
+```
 
 ## Description du projet
 
-Ce projet a pour objectif de mesurer l'importance accordée aux questions environnementales dans les Accords Commerciaux Préférentiels (ACPr) à l'aide de l'**Indice d’Attention portée à l’Environnement (IAE)**. Cet indicateur est calculé à partir des données fournies par la **[Trade & Environment Database (TREND)](https://www.chaire-epi.ulaval.ca/en/trend)**, la base de donées la plus complète à ce jour sur les clauses environnementales dans les accords commerciaux internationaux.
+Ce projet a pour objectif de mesurer l'importance accordée aux questions environnementales dans les Accords Commerciaux Préférentiels (ACPr) à l'aide de l'**Indice d’Attention portée à l’Environnement (IAE)**. Cet indicateur est calculé à partir des données fournies par la [**Trade & Environment Database (TREND)**](https://www.chaire-epi.ulaval.ca/en/trend), la base de donées la plus complète à ce jour sur les clauses environnementales dans les accords commerciaux internationaux.
 
 La méthodologie ébauchée s'articule autour de l'utilisation de plusieurs outils analytiques, dont **Python**, **Excel**, et **Power BI**, pour extraire, transformer, analyser et visualiser les données.
 
@@ -18,43 +36,51 @@ L'objectif final de ce projet est de produire un **rapport interactif Power BI**
 ## Étapes détaillées
 
 ### 1. **Préparation des données**
-   - **Extraction et nettoyage des données** : Les fichiers .csv issus de la base TREND sont importés et nettoyés dans un jupiter notebook (`trend.ipynb`). Cela inclut la suppression de colonnes non pertinentes et la gestion des valeurs manquantes.
-   - **Ajout de nouvelles données** : De nouveaux individus (accords) sont introduits au dataset pour des analyses plus précises.
+
+-   **Extraction et nettoyage des données** : Les fichiers .csv issus de la base TREND sont importés et nettoyés dans un jupiter notebook (`trend.ipynb`). Cela inclut la suppression de colonnes non pertinentes et la gestion des valeurs manquantes.
+-   **Ajout de nouvelles données** : De nouveaux individus (accords) sont introduits au dataset pour des analyses plus précises.
 
 ### 2. **Calcul de l'IAE**
-   - **Filtrage des données** : Les colonnes correspondant aux clauses environnementales sont sélectionnées.
-   - **Calcul des scores** : Des scores sont attribués à chaque accord en fonction de son engagement envers les clauses environnementales.
-   - **Normalisation** : Ces scores sont ajustés sur une échelle de 1 à 10, puis un score global est calculé pour chaque accord en prenant la moyenne quadratique des scores normalisés.
+
+-   **Filtrage des données** : Les colonnes correspondant aux clauses environnementales sont sélectionnées.
+-   **Calcul des scores** : Des scores sont attribués à chaque accord en fonction de son engagement envers les clauses environnementales.
+-   **Normalisation** : Ces scores sont ajustés sur une échelle de 1 à 10, puis un score global est calculé pour chaque accord en prenant la moyenne quadratique des scores normalisés.
 
 ### 3. **Analyse par pays**
-   - **Agrégation des scores IAE par pays** : Les scores sont regroupés par pays pour analyser leur engagement environnemental dans plusieurs accords.
-   - **Nettoyage des noms des pays** : Les noms des pays sont standardisés à l’aide de la fonction `VLOOKUP` dans **Excel**, avant d’être réintroduits dans les analyses Python.
+
+-   **Agrégation des scores IAE par pays** : Les scores sont regroupés par pays pour analyser leur engagement environnemental dans plusieurs accords.
+-   **Nettoyage des noms des pays** : Les noms des pays sont standardisés à l’aide de la fonction `VLOOKUP` dans **Excel**, avant d’être réintroduits dans les analyses Python.
 
 ### 4. **Exportation des données**
-   - Les résultats des calculs sont exportés dans des fichiers .csv et Excel pour être utilisés dans Power BI. Les fichiers finaaux contiennent des données sur le nombre de normes signées, les années de signature des accords, et les scores IAE moyens par pays, etc.
+
+-   Les résultats des calculs sont exportés dans des fichiers .csv et Excel pour être utilisés dans Power BI. Les fichiers finaaux contiennent des données sur le nombre de normes signées, les années de signature des accords, et les scores IAE moyens par pays, etc.
 
 ### 5. **Création du rapport Power BI**
-   - **Visualisation des données** : Un rapport interactif Power BI est créé, présentant des graphiques et des cartes pour visualiser les scores IAE et les engagements environnementaux des pays. Le rapport inclut également des analyses temporelles sur les accords signés.
+
+-   **Visualisation des données** : Un rapport interactif Power BI est créé, présentant des graphiques et des cartes pour visualiser les scores IAE et les engagements environnementaux des pays. Le rapport inclut également des analyses temporelles sur les accords signés.
 
 ## Datasets utilisés
-- **trend2022.csv** : Base principale contenant les informations sur les clauses environnementales des ACPr ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
-- **trenddyadic2022.csv** : Données spécifiques aux pays impliqués dans ces accords ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
-- **infos_accords.csv** : Données régionales et géographiques sur les accords commerciaux ([DESTA](https://www.designoftradeagreements.org/downloads/)).
+
+-   **trend2022.csv** : Base principale contenant les informations sur les clauses environnementales des ACPr ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
+-   **trenddyadic2022.csv** : Données spécifiques aux pays impliqués dans ces accords ([TREND](https://www.chaire-epi.ulaval.ca/en/trend)).
+-   **infos_accords.csv** : Données régionales et géographiques sur les accords commerciaux ([DESTA](https://www.designoftradeagreements.org/downloads/)).
 
 ## Outils et librairies utilisés
-- **Python** : Principal langage utilisé pour l’analyse et le traitement des données. Librairies utilisées :
-   - **Pandas** : Manipulation des données.
-   - **NumPy** : Calculs mathématiques et manipulation de matrices.
-   - **Matplotlib & Seaborn** : Visualisation des données.
-- **Excel** : Utilisé pour le nettoyage des noms de pays à l’aide de la fonction **`VLOOKUP`**.
-- **Jupyter Notebook** : Utilisé pour développer et documenter le code Python.
-- **Power BI** : Outil de création de rapports interactifs pour visualiser les résultats sous forme de graphiques et de cartes.
-  
+
+-   **Python** : Principal langage utilisé pour l’analyse et le traitement des données. Librairies utilisées :
+    -   **Pandas** : Manipulation des données.
+    -   **NumPy** : Calculs mathématiques et manipulation de matrices.
+    -   **Matplotlib & Seaborn** : Visualisation des données.
+-   **Excel** : Utilisé pour le nettoyage des noms de pays à l’aide de la fonction **`VLOOKUP`**.
+-   **Jupyter Notebook** : Utilisé pour développer et documenter le code Python.
+-   **Power BI** : Outil de création de rapports interactifs pour visualiser les résultats sous forme de graphiques et de cartes.
+
 Pour un aperçu plus détaillé du processus de création de l'indicateur IAE et une explication technique complète, vous pouvez consulter le **PDF** ci-dessous :
 
-**[Télécharger le PDF détaillant la création de l’indicateur IAE](https://drive.google.com/file/d/1m1CoiJk8brmNx2D9m2sQcm7lRcRZim5W/view?usp=sharing)**
+[**Télécharger le PDF détaillant la création de l’indicateur IAE**](https://drive.google.com/file/d/1m1CoiJk8brmNx2D9m2sQcm7lRcRZim5W/view?usp=sharing)
 
 ## Résultats
+
 Les résultats sont présentés dans le dossier dashboard de projet. Vous pouvez y acceder en cliquant [ici](https://github.com/aurvl/Projects/tree/main/IAE%20Trends/dashboard).
 
-Merci et bonne exploration !😁
+*Merci et enjoy !*🎉

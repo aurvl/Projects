@@ -1,5 +1,11 @@
 # Analyse des Exportations et Importations Belges (1995-2023)
 
+#### Structure de ce projet
+```
+Stock previsions/
+   - expimp belgique.csv : Dataset contenant les données sur les import et export belge entre 95 et 2023
+   - time series analysis.pdf : Un document pdf retraçant tout ce qui a été réalisé durant cette étude.
+```
 ## Description
 
 Ce rapport présente une analyse économétrique des exportations et des importations de la Belgique, réalisée dans le cadre d'un cours de Master 1 en Économie à l'Université Côte d'Azur. L'étude examine les séries temporelles du commerce extérieur belge pour comprendre les tendances historiques, évaluer les relations entre les variables, et fournir des prévisions sur une période de 10 trimestres. Le rapport se divise en deux grandes parties : une analyse univariée des séries temporelles pour explorer les caractéristiques individuelles et une analyse multivariée pour examiner les interactions entre les différentes séries.
