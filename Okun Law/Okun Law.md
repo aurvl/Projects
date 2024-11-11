@@ -3,8 +3,8 @@
 #### Structure of the Famd directory
 ```
 Okun Law/
-  |- Okun Law.md : Documentation on the project
-  |- okun_law.R : R script where analysis, visualisations and modelisations are realised.
+  ├── Okun Law.md : Documentation on the project
+  └── okun_law.R : R script where analysis, visualisations and modelisations are realised.
 ```
 [Link to the report](https://aurvl.github.io/NotebookSites/okun/Report.html)
 
