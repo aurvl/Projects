@@ -3,9 +3,9 @@
 #### Structure de ce projet
 ```
 Stock previsions/
-   |- Stock Previsions.md : Project Documentation
-   |- expimp belgique.csv : Dataset contenant les données sur les import et export belge entre 95 et 2023
-   |- time series analysis.pdf : Un document pdf retraçant tout ce qui a été réalisé durant cette étude.
+   ├── Stock Previsions.md : Project Documentation
+   └── expimp belgique.csv : Dataset contenant les données sur les import et export belge entre 95 et 2023
+   └── time series analysis.pdf : Un document pdf retraçant tout ce qui a été réalisé durant cette étude.
 ```
 ## Description
 
