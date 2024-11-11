@@ -19,7 +19,7 @@ IAE Trends/
          ├── df_score.csv : Dataset contenant les calculs IAE /accord commercial (résulte de trend.ipynb)
          └── data_pays.csv : Dataset contenant les calculs IAE /pays (résulte de trend.ipynb)
    └── dashboard/
-         ├── trend_dashboard.pbix : Power BI dashboard réalisé à partir des dataframe obtenues
+         ├── trend_dashboard.pbix : Power BI dashboard réalisé à partir des dataframes obtenues (results/)
          └── resultats.md : Intrpretation du dashboard
 ```
 
