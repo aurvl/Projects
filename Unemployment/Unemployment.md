@@ -3,8 +3,8 @@
 #### Structure of the project
 ```
 Unemployment/
-    |- Unemployment.md : Documentation of the project
-    |- policy_guidance.py : This is the Python script that contains the analysis
+    ├── Unemployment.md : Documentation of the project
+    └── policy_guidance.py : This is the Python script that contains the analysis
 ```
 
 ## Description
